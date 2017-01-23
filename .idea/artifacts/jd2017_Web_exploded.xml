@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jd2017:Web exploded">
+    <output-path>$PROJECT_DIR$/../out/classes</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jd2017/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jd2017" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="libs" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

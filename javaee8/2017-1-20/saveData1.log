@@ -1,0 +1,1256 @@
+20:36:06,865  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@28f67ac7: startup date [Fri Jan 20 20:36:06 CST 2017]; root of context hierarchy
+20:36:07,040  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+20:36:08,487  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [oracle.jdbc.properties]
+20:36:08,498  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:36:08,861  INFO DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+20:36:08,969 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+20:36:08,973 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+20:36:08,980 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+20:36:09,182  INFO Version:45 - HHH000412: Hibernate Core {5.2.5.Final}
+20:36:09,185  INFO Environment:213 - HHH000206: hibernate.properties not found
+20:36:09,212 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+20:36:09,213 DEBUG LocalXmlResourceResolver:85 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+20:36:09,219 DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+20:36:09,449 DEBUG Configuration:724 - Building session factory using internal StandardServiceRegistryBuilder
+20:36:09,459 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+20:36:09,460 DEBUG Configuration:652 - Building session factory using provided StandardServiceRegistry
+20:36:09,489 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+20:36:09,503  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+20:36:09,523 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+20:36:09,527  WARN deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+20:36:09,528 DEBUG LocalXmlResourceResolver:79 - Recognized legacy hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+20:36:09,555 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/mobile.goods.hbm.xml,type=RESOURCE)
+20:36:11,122 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@10c626be
+20:36:11,123 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@10c626be
+20:36:11,123 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@10c626be
+20:36:11,125 DEBUG BasicTypeRegistry:145 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@201b6b6f
+20:36:11,128 DEBUG BasicTypeRegistry:145 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@30bcf3c1
+20:36:11,129 DEBUG BasicTypeRegistry:145 - Adding type registration yes_no -> org.hibernate.type.YesNoType@5b444398
+20:36:11,133 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@4c4d27c8
+20:36:11,133 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@4c4d27c8
+20:36:11,134 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4c4d27c8
+20:36:11,137 DEBUG BasicTypeRegistry:145 - Adding type registration character -> org.hibernate.type.CharacterType@129b4fe2
+20:36:11,138 DEBUG BasicTypeRegistry:145 - Adding type registration char -> org.hibernate.type.CharacterType@129b4fe2
+20:36:11,138 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@129b4fe2
+20:36:11,141 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@2bb7bd00
+20:36:11,142 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@2bb7bd00
+20:36:11,142 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2bb7bd00
+20:36:11,145 DEBUG BasicTypeRegistry:145 - Adding type registration integer -> org.hibernate.type.IntegerType@14b030a0
+20:36:11,146 DEBUG BasicTypeRegistry:145 - Adding type registration int -> org.hibernate.type.IntegerType@14b030a0
+20:36:11,146 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@14b030a0
+20:36:11,149 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@75e91545
+20:36:11,150 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@75e91545
+20:36:11,150 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@75e91545
+20:36:11,156 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@e077866
+20:36:11,157 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@e077866
+20:36:11,157 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@e077866
+20:36:11,160 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@7b324585
+20:36:11,161 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@7b324585
+20:36:11,161 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7b324585
+20:36:11,164 DEBUG BasicTypeRegistry:145 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6f8f9349
+20:36:11,165 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6f8f9349
+20:36:11,167 DEBUG BasicTypeRegistry:145 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@75f5fd58
+20:36:11,167 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@75f5fd58
+20:36:11,169 DEBUG BasicTypeRegistry:145 - Adding type registration string -> org.hibernate.type.StringType@47db5fa5
+20:36:11,170 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.String -> org.hibernate.type.StringType@47db5fa5
+20:36:11,172 DEBUG BasicTypeRegistry:145 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1080b026
+20:36:11,174 DEBUG BasicTypeRegistry:145 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@dcfda20
+20:36:11,177 DEBUG BasicTypeRegistry:145 - Adding type registration url -> org.hibernate.type.UrlType@40499e4f
+20:36:11,178 DEBUG BasicTypeRegistry:145 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@40499e4f
+20:36:11,180 DEBUG BasicTypeRegistry:145 - Adding type registration Duration -> org.hibernate.type.DurationType@7a791b66
+20:36:11,181 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@7a791b66
+20:36:11,210 DEBUG BasicTypeRegistry:145 - Adding type registration Instant -> org.hibernate.type.InstantType@3f053c80
+20:36:11,211 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3f053c80
+20:36:11,214 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1d8062d2
+20:36:11,215 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1d8062d2
+20:36:11,220 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@2c88b9fc
+20:36:11,222 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@2c88b9fc
+20:36:11,226 DEBUG BasicTypeRegistry:145 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3d484181
+20:36:11,227 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3d484181
+20:36:11,231 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@37bd68c3
+20:36:11,231 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@37bd68c3
+20:36:11,235 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@45cff11c
+20:36:11,236 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@45cff11c
+20:36:11,245 DEBUG BasicTypeRegistry:145 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@650eab8
+20:36:11,245 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@650eab8
+20:36:11,251 DEBUG BasicTypeRegistry:145 - Adding type registration date -> org.hibernate.type.DateType@f0e995e
+20:36:11,252 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@f0e995e
+20:36:11,255 DEBUG BasicTypeRegistry:145 - Adding type registration time -> org.hibernate.type.TimeType@150ab4ed
+20:36:11,256 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@150ab4ed
+20:36:11,260 DEBUG BasicTypeRegistry:145 - Adding type registration timestamp -> org.hibernate.type.TimestampType@5ce33a58
+20:36:11,261 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5ce33a58
+20:36:11,261 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5ce33a58
+20:36:11,265 DEBUG BasicTypeRegistry:145 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5357c287
+20:36:11,269 DEBUG BasicTypeRegistry:145 - Adding type registration calendar -> org.hibernate.type.CalendarType@2b43529a
+20:36:11,270 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2b43529a
+20:36:11,271 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2b43529a
+20:36:11,273 DEBUG BasicTypeRegistry:145 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5ad10c1a
+20:36:11,276 DEBUG BasicTypeRegistry:145 - Adding type registration locale -> org.hibernate.type.LocaleType@76f7d241
+20:36:11,277 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@76f7d241
+20:36:11,279 DEBUG BasicTypeRegistry:145 - Adding type registration currency -> org.hibernate.type.CurrencyType@1bb1fde8
+20:36:11,280 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1bb1fde8
+20:36:11,282 DEBUG BasicTypeRegistry:145 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@44828f6b
+20:36:11,283 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@44828f6b
+20:36:11,286 DEBUG BasicTypeRegistry:145 - Adding type registration class -> org.hibernate.type.ClassType@62fe6067
+20:36:11,286 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@62fe6067
+20:36:11,290 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@62435e70
+20:36:11,290 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@62435e70
+20:36:11,291 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@269f4bad
+20:36:11,294 DEBUG BasicTypeRegistry:145 - Adding type registration binary -> org.hibernate.type.BinaryType@40e10ff8
+20:36:11,294 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.BinaryType@40e10ff8
+20:36:11,295 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.BinaryType@40e10ff8
+20:36:11,296 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@33e01298
+20:36:11,297 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@33e01298
+20:36:11,297 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@33e01298
+20:36:11,299 DEBUG BasicTypeRegistry:145 - Adding type registration row_version -> org.hibernate.type.RowVersionType@73ff4fae
+20:36:11,301 DEBUG BasicTypeRegistry:145 - Adding type registration image -> org.hibernate.type.ImageType@54227100
+20:36:11,303 DEBUG BasicTypeRegistry:145 - Adding type registration characters -> org.hibernate.type.CharArrayType@5778826f
+20:36:11,303 DEBUG BasicTypeRegistry:145 - Adding type registration char[] -> org.hibernate.type.CharArrayType@5778826f
+20:36:11,304 DEBUG BasicTypeRegistry:145 - Adding type registration [C -> org.hibernate.type.CharArrayType@5778826f
+20:36:11,307 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1c80e49b
+20:36:11,307 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1c80e49b
+20:36:11,307 DEBUG BasicTypeRegistry:145 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1c80e49b
+20:36:11,310 DEBUG BasicTypeRegistry:145 - Adding type registration text -> org.hibernate.type.TextType@56276db8
+20:36:11,312 DEBUG BasicTypeRegistry:145 - Adding type registration ntext -> org.hibernate.type.NTextType@4d098f9b
+20:36:11,318 DEBUG BasicTypeRegistry:145 - Adding type registration blob -> org.hibernate.type.BlobType@6f603e89
+20:36:11,319 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6f603e89
+20:36:11,320 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@69637b10
+20:36:11,326 DEBUG BasicTypeRegistry:145 - Adding type registration clob -> org.hibernate.type.ClobType@3ce3db41
+20:36:11,327 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3ce3db41
+20:36:11,333 DEBUG BasicTypeRegistry:145 - Adding type registration nclob -> org.hibernate.type.NClobType@2cb3d0f7
+20:36:11,333 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2cb3d0f7
+20:36:11,334 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6a66a204
+20:36:11,336 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@42f3156d
+20:36:11,338 DEBUG BasicTypeRegistry:145 - Adding type registration serializable -> org.hibernate.type.SerializableType@65aa6596
+20:36:11,344 DEBUG BasicTypeRegistry:145 - Adding type registration object -> org.hibernate.type.ObjectType@6e4de19b
+20:36:11,345 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6e4de19b
+20:36:11,346 DEBUG BasicTypeRegistry:145 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@18518ccf
+20:36:11,346 DEBUG BasicTypeRegistry:145 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1991f767
+20:36:11,347 DEBUG BasicTypeRegistry:145 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@768ccdc5
+20:36:11,347 DEBUG BasicTypeRegistry:145 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4c6daf0
+20:36:11,348 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@10650953
+20:36:11,348 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@659eef7
+20:36:11,349 DEBUG BasicTypeRegistry:145 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@162be91c
+20:36:11,349 DEBUG BasicTypeRegistry:145 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2488b073
+20:36:12,278 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : Oracle
+    version : Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+      major : 12
+      minor : 1
+20:36:12,279 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : Oracle JDBC driver
+    version : 12.1.0.2.0
+      major : 12
+      minor : 1
+20:36:12,279 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.1
+20:36:12,307  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+20:36:12,706 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.MaterializedBlobType@69637b10
+20:36:12,706  INFO BasicTypeRegistry:148 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@40e10ff8
+20:36:12,707 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.MaterializedBlobType@69637b10
+20:36:12,707  INFO BasicTypeRegistry:148 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@40e10ff8
+20:36:12,708 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrappedMaterializedBlobType@585ac855
+20:36:12,709  INFO BasicTypeRegistry:148 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@33e01298
+20:36:12,709 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrappedMaterializedBlobType@585ac855
+20:36:12,710  INFO BasicTypeRegistry:148 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@33e01298
+20:36:12,765 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+20:36:12,767 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+20:36:12,769 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+20:36:12,770 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+20:36:12,772 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+20:36:12,775 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+20:36:12,776 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+20:36:12,779 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+20:36:12,782 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+20:36:12,783 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+20:36:12,785 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+20:36:12,786 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+20:36:12,787 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+20:36:12,789 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+20:36:12,926 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+20:36:12,994 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.MobileGoods -> tb_mobileGoods8
+20:36:13,019 DEBUG ModelBinder:2501 - Mapped property: id -> [mobileGoods_id]
+20:36:13,024 DEBUG PrimaryKey:35 - Forcing column [mobilegoods_id] to be non-null as it is part of the primary key for table [tb_mobilegoods8]
+20:36:13,027 DEBUG ModelBinder:1782 - Mapping entity secondary-table: qin.mobilegoods.domain.MobileGoods -> mobileGoods_goodsType
+20:36:13,029 DEBUG PrimaryKey:35 - Forcing column [col_mobilegoodstype] to be non-null as it is part of the primary key for table [mobilegoods_goodstype]
+20:36:13,035 DEBUG ModelBinder:2501 - Mapped property: goods_number -> [mobile_goodsNumber]
+20:36:13,036 DEBUG ModelBinder:2501 - Mapped property: goods_name -> [mobile_goodsName]
+20:36:13,037 DEBUG ModelBinder:2501 - Mapped property: goods_price -> [mobile_goodsPrice]
+20:36:13,038 DEBUG ModelBinder:2501 - Mapped property: goods_description -> [mobile_goodsDescription]
+20:36:13,039 DEBUG ModelBinder:2501 - Mapped property: mobile_os -> [mobile_os]
+20:36:13,039 DEBUG ModelBinder:2501 - Mapped property: mobile_memory -> [mobile_memory]
+20:36:13,039 DEBUG ModelBinder:2501 - Mapped property: mobile_frontCamera -> [mobile_frontCamera]
+20:36:13,040 DEBUG ModelBinder:2501 - Mapped property: mobile_news -> [mobile_news]
+20:36:13,041 DEBUG ModelBinder:2501 - Mapped property: mobile_backCamera -> [mobile_backCamera]
+20:36:13,041 DEBUG ModelBinder:2501 - Mapped property: mobile_battery -> [mobile_battery]
+20:36:13,042 DEBUG ModelBinder:2501 - Mapped property: mobile_rom -> [mobile_rom]
+20:36:13,042 DEBUG ModelBinder:2501 - Mapped property: mobile_color -> [mobile_color]
+20:36:13,075 DEBUG ModelBinder:2501 - Mapped property: imagesMap -> []
+20:36:13,082 DEBUG ModelBinder:2501 - Mapped property: mobileGoodsType -> [col_mobileGoodsTypeMany2One]
+20:36:13,093 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.GoodsType
+20:36:13,144 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+20:36:13,158 DEBUG EntityBinder:414 - Import with entity name GoodsType
+20:36:13,161 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.GoodsType on table tb_goodsType8
+20:36:13,257 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=gook_pk, insertable=true, updatable=true, unique=false}
+20:36:13,270 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+20:36:13,275 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:id]
+20:36:13,279 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+20:36:13,280 DEBUG PropertyBinder:265 - Building property id
+20:36:13,290 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+20:36:13,292 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=childrenSet, insertable=true, updatable=true, unique=false}
+20:36:13,295 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=null, insertable=true, updatable=true, unique=false}
+20:36:13,338 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=element, insertable=true, updatable=true, unique=false}
+20:36:13,343 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=childrenSet_KEY, insertable=true, updatable=true, unique=false}
+20:36:13,347 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='childrenSet_KEY', referencedColumn='null', mappedBy='null'}
+20:36:13,349 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_childrenSet', referencedColumn='', mappedBy=''}
+20:36:13,351 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+20:36:13,352 DEBUG CollectionBinder:388 - Collection role: qin.mobilegoods.domain.GoodsType.childrenSet
+20:36:13,358 DEBUG PropertyBinder:265 - Building property childrenSet
+20:36:13,360 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=goods_typeDescription, insertable=true, updatable=true, unique=false}
+20:36:13,362 DEBUG PropertyBinder:174 - MetadataSourceProcessor property goods_typeDescription with lazy=false
+20:36:13,363 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:goods_typeDescription]
+20:36:13,364 DEBUG SimpleValueBinder:411 - building SimpleValue for goods_typeDescription
+20:36:13,365 DEBUG PropertyBinder:265 - Building property goods_typeDescription
+20:36:13,366 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=goods_typeName, insertable=true, updatable=true, unique=true}
+20:36:13,366 DEBUG PropertyBinder:174 - MetadataSourceProcessor property goods_typeName with lazy=false
+20:36:13,367 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:goods_typeName]
+20:36:13,367 DEBUG SimpleValueBinder:411 - building SimpleValue for goods_typeName
+20:36:13,368 DEBUG PropertyBinder:265 - Building property goods_typeName
+20:36:13,368 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+20:36:13,369 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=mobileGoodsSet, insertable=true, updatable=true, unique=false}
+20:36:13,373 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=null, insertable=true, updatable=true, unique=false}
+20:36:13,374 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=element, insertable=true, updatable=true, unique=false}
+20:36:13,374 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=mobileGoodsSet_KEY, insertable=true, updatable=true, unique=false}
+20:36:13,375 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='mobileGoodsSet_KEY', referencedColumn='null', mappedBy='null'}
+20:36:13,376 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_mobileSet', referencedColumn='', mappedBy=''}
+20:36:13,377 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+20:36:13,377 DEBUG CollectionBinder:388 - Collection role: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+20:36:13,377 DEBUG PropertyBinder:265 - Building property mobileGoodsSet
+20:36:13,378 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_parentId', referencedColumn='', mappedBy=''}
+20:36:13,378 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=parentGoodsType, insertable=true, updatable=true, unique=false}
+20:36:13,383 DEBUG PropertyBinder:265 - Building property parentGoodsType
+20:36:13,390 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+20:36:13,391 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for goods_typeDescription
+20:36:13,391 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for goods_typeName
+20:36:13,394 DEBUG PrimaryKey:35 - Forcing column [gook_pk] to be non-null as it is part of the primary key for table [tb_goodstype8]
+20:36:13,395 DEBUG CollectionSecondPass:51 - Second pass for collection: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+20:36:13,395 DEBUG CollectionBinder:1207 - Binding a OneToMany: qin.mobilegoods.domain.GoodsType.mobileGoodsSet through an association table
+20:36:13,410 DEBUG PrimaryKey:35 - Forcing column [goodstype_mobileset] to be non-null as it is part of the primary key for table [mobilegoodsset_goodstype]
+20:36:13,412 DEBUG PrimaryKey:35 - Forcing column [mobilegoodsset_mobilegoods_id] to be non-null as it is part of the primary key for table [mobilegoodsset_goodstype]
+20:36:13,413 DEBUG CollectionSecondPass:68 - Mapped collection key: goodsType_mobileSet, element: mobileGoodsSet_mobileGoods_id
+20:36:13,413 DEBUG CollectionSecondPass:51 - Second pass for collection: qin.mobilegoods.domain.GoodsType.childrenSet
+20:36:13,413 DEBUG CollectionBinder:1207 - Binding a OneToMany: qin.mobilegoods.domain.GoodsType.childrenSet through an association table
+20:36:13,415 DEBUG PrimaryKey:35 - Forcing column [goodstype_childrenset] to be non-null as it is part of the primary key for table [goodstype_childrenset]
+20:36:13,416 DEBUG PrimaryKey:35 - Forcing column [childrenset_gook_pk] to be non-null as it is part of the primary key for table [goodstype_childrenset]
+20:36:13,416 DEBUG CollectionSecondPass:68 - Mapped collection key: goodsType_childrenSet, element: childrenSet_gook_pk
+20:36:13,418 DEBUG ModelBinder:3225 - Mapping collection: qin.mobilegoods.domain.MobileGoods.imagesMap -> mobileGoods_imagesMap
+20:36:13,423 DEBUG PrimaryKey:35 - Forcing column [col_images_mobile] to be non-null as it is part of the primary key for table [mobilegoods_imagesmap]
+20:36:13,424 DEBUG PrimaryKey:35 - Forcing column [col_images_index_mobile] to be non-null as it is part of the primary key for table [mobilegoods_imagesmap]
+20:36:13,425 DEBUG ModelBinder:3100 - Mapped collection : qin.mobilegoods.domain.MobileGoods.imagesMap
+20:36:13,425 DEBUG ModelBinder:3101 -    + table -> tb_mobileGoods8
+20:36:13,426 DEBUG ModelBinder:3102 -    + key -> col_images_mobile
+20:36:13,426 DEBUG ModelBinder:3104 -    + index -> col_images_index_mobile
+20:36:13,426 DEBUG ModelBinder:3110 -    + element -> element_images_mobile
+20:36:13,427 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,437 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,438 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+20:36:13,438 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,438 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+20:36:13,439 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+20:36:13,441 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,441 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,444 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,444 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,445 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+20:36:13,445 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,446 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+20:36:13,446 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+20:36:13,446 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,447 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+20:36:13,548 DEBUG SessionFactoryImpl:199 - Building session factory
+20:36:13,550 DEBUG Settings:69 - SessionFactory name : null
+20:36:13,551 DEBUG Settings:70 - Automatic flush during beforeCompletion(): enabled
+20:36:13,551 DEBUG Settings:71 - Automatic session close at end of transaction: disabled
+20:36:13,551 DEBUG Settings:73 - Statistics: disabled
+20:36:13,552 DEBUG Settings:75 - Deleted entity synthetic identifier rollback: disabled
+20:36:13,552 DEBUG Settings:76 - Default entity-mode: pojo
+20:36:13,553 DEBUG Settings:77 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+20:36:13,553 DEBUG Settings:78 - Allow initialization of lazy state outside session : disabled
+20:36:13,554 DEBUG Settings:80 - Using BatchFetchStyle : LEGACY
+20:36:13,554 DEBUG Settings:81 - Default batch fetch size: -1
+20:36:13,554 DEBUG Settings:82 - Maximum outer join fetch depth: null
+20:36:13,555 DEBUG Settings:83 - Default null ordering: NONE
+20:36:13,555 DEBUG Settings:84 - Order SQL updates by primary key: disabled
+20:36:13,555 DEBUG Settings:85 - Order SQL inserts for batching: disabled
+20:36:13,556 DEBUG Settings:87 - multi-tenancy strategy : NONE
+20:36:13,556 DEBUG Settings:89 - JTA Track by Thread: enabled
+20:36:13,556 DEBUG Settings:91 - Query language substitutions: {}
+20:36:13,557 DEBUG Settings:92 - JPA query language strict compliance: disabled
+20:36:13,557 DEBUG Settings:93 - Named query checking : enabled
+20:36:13,557 DEBUG Settings:95 - Second-level cache: enabled
+20:36:13,558 DEBUG Settings:96 - Second-level query cache: disabled
+20:36:13,558 DEBUG Settings:97 - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@2881ad47
+20:36:13,558 DEBUG Settings:98 - Second-level cache region prefix: null
+20:36:13,559 DEBUG Settings:99 - Optimize second-level cache for minimal puts: disabled
+20:36:13,559 DEBUG Settings:100 - Structured second-level cache entries: disabled
+20:36:13,559 DEBUG Settings:101 - Second-level cache direct-reference entries: disabled
+20:36:13,560 DEBUG Settings:102 - Automatic eviction of collection cache: disabled
+20:36:13,566 DEBUG Settings:104 - JDBC batch size: 15
+20:36:13,567 DEBUG Settings:105 - JDBC batch updates for versioned data: enabled
+20:36:13,567 DEBUG Settings:106 - Scrollable result sets: enabled
+20:36:13,567 DEBUG Settings:107 - Wrap result sets: disabled
+20:36:13,567 DEBUG Settings:108 - JDBC3 getGeneratedKeys(): enabled
+20:36:13,568 DEBUG Settings:109 - JDBC result set fetch size: null
+20:36:13,568 DEBUG Settings:110 - Connection release mode: AFTER_TRANSACTION
+20:36:13,568 DEBUG Settings:111 - Generate SQL with comments: disabled
+20:36:13,752 DEBUG SessionFactoryImpl:254 - Session factory constructed with filter configurations : {}
+20:36:13,753 DEBUG SessionFactoryImpl:255 - Instantiating session factory with properties: {sun.desktop=windows, hibernate.format_sql=true, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=GBK, hibernate.dialect=org.hibernate.dialect.Oracle12cDialect, java.class.path=E:\software\jetbrains\idea2016.3\lib\idea_rt.jar;E:\software\jetbrains\idea2016.3\plugins\junit\lib\junit-rt.jar;D:\idea2016WK\jd2017\jd2017\build\classes;E:\software\jdk1.8x64\jdk\jre\lib\charsets.jar;E:\software\jdk1.8x64\jdk\jre\lib\deploy.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\access-bridge-64.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\cldrdata.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\dnsns.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\jaccess.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\jfxrt.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\localedata.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\nashorn.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\sunec.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\sunjce_provider.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\sunmscapi.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\sunpkcs11.jar;E:\software\jdk1.8x64\jdk\jre\lib\ext\zipfs.jar;E:\software\jdk1.8x64\jdk\jre\lib\javaws.jar;E:\software\jdk1.8x64\jdk\jre\lib\jce.jar;E:\software\jdk1.8x64\jdk\jre\lib\jfr.jar;E:\software\jdk1.8x64\jdk\jre\lib\jfxswt.jar;E:\software\jdk1.8x64\jdk\jre\lib\jsse.jar;E:\software\jdk1.8x64\jdk\jre\lib\management-agent.jar;E:\software\jdk1.8x64\jdk\jre\lib\plugin.jar;E:\software\jdk1.8x64\jdk\jre\lib\resources.jar;E:\software\jdk1.8x64\jdk\jre\lib\rt.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\antlr-2.7.7.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\aspectjweaver-1.8.9.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\cdi-api-1.1.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\classmate-1.3.0.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\commons-logging-1.2.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\el-api-2.2.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\hibernate-core-5.2.5.Final.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\jandex-2.0.3.Final.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\JavaEE8_2017HibernateTemplate5.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\javassist-3.20.0-GA.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\javax.inject-1.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\jboss-logging-3.3.0.Final.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\jsr250-api-1.0.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\jstl-1.2.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\mysql-connector-java-5.1.35-bin.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\oracle-driver-ojdbc-12.1.0.2.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-aop-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-aspects-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-beans-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-context-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-context-support-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-core-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-expression-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-instrument-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-instrument-tomcat-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-jdbc-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-jms-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-messaging-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-orm-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-oxm-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-test-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-tx-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-web-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-webmvc-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-webmvc-portlet-4.3.5.RELEASE.jar;D:\idea2016WK\jd2017\jd2017\WebContent\WEB-INF\lib\spring-websocket-4.3.5.RELEASE.jar;D:\idea2016WK\libs\junit-4.11.jar;D:\idea2016WK\libs\hamcrest-all-1.3.jar;D:\idea2016WK\libs\log4j-1.2.17.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Shanghai, os.name=Windows 7, java.vm.specification.version=1.8, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=E:\software\jdk1.8x64\jdk\jre\bin, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 qin.test.SaveGoodsType,printTest, sun.cpu.endian=little, user.home=C:\Users\Administrator, user.language=zh, idea.launcher.port=7532, java.specification.vendor=Oracle Corporation, java.home=E:\software\jdk1.8x64\jdk\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, sun.boot.class.path=E:\software\jdk1.8x64\jdk\jre\lib\resources.jar;E:\software\jdk1.8x64\jdk\jre\lib\rt.jar;E:\software\jdk1.8x64\jdk\jre\lib\sunrsasign.jar;E:\software\jdk1.8x64\jdk\jre\lib\jsse.jar;E:\software\jdk1.8x64\jdk\jre\lib\jce.jar;E:\software\jdk1.8x64\jdk\jre\lib\charsets.jar;E:\software\jdk1.8x64\jdk\jre\lib\jfr.jar;E:\software\jdk1.8x64\jdk\jre\classes, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0-b132, user.name=Administrator, path.separator=;, hibernate.classLoader.application=sun.misc.Launcher$AppClassLoader@6d06d69c, os.version=6.1, java.endorsed.dirs=E:\software\jdk1.8x64\jdk\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, idea.launcher.bin.path=E:\software\jetbrains\idea2016.3\bin, java.version=1.8.0, user.dir=D:\idea2016WK\jd2017\jd2017, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=Service Pack 1, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@499683c4, java.library.path=E:\software\jdk1.8x64\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\app\Administrator\product\12.1.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\software\maven0339\bin;C:\Program Files\TortoiseSVN\bin;E:\software\visual_svn\bin;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseGit\bin;D:\xampps\perl\bin\;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\xampps\perl\bin\;E:\software\ZendServer\ZendServer\share\ZendFramework\bin;E:\software\ZendServer\ZendServer\bin;E:\software\Zend\DB2\BIN;E:\software\Zend\DB2\FUNCTION;C:\Program Files\MySQL\MySQL Server 5.7\bin;E:\software\jdk1.8x64\jdk\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\atom\bin;E:\software\搜狐影音\5.0.2.23;e:\software\Microsoft VS Code\bin;., java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.0-b70, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@2b4bac49, java.ext.dirs=E:\software\jdk1.8x64\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.io.unicode.encoding=UnicodeLittle, java.class.version=52.0}
+20:36:13,790 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+20:36:13,800 DEBUG SessionFactoryImpl:294 - Instantiated session factory
+20:36:14,338 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [qin.mobilegoods.domain.MobileGoods] is safe
+20:36:14,339 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : qin.mobilegoods.domain.MobileGoods
+20:36:14,347  INFO MobileGoods:146 - 正在初始化商品默认构造函数==========
+
+20:36:14,347  INFO MobileGoods:146 - 正在初始化手机类默认构造函数==========
+
+20:36:14,423 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [qin.mobilegoods.domain.GoodsType] is safe
+20:36:14,424 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : qin.mobilegoods.domain.GoodsType
+20:36:14,425  INFO GoodsType:146 - 正在初始化商品类型实体类默认构造函数==========
+
+20:36:14,426 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [qin.mobilegoods.domain.GoodsType] is safe
+20:36:14,426 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : qin.mobilegoods.domain.GoodsType
+20:36:14,543 DEBUG AbstractCollectionPersister:670 - Static SQL for collection: qin.mobilegoods.domain.GoodsType.childrenSet
+20:36:14,544 DEBUG AbstractCollectionPersister:672 -  Row insert: insert into goodstype_childrenSet (goodsType_childrenSet, childrenSet_gook_pk) values (?, ?)
+20:36:14,544 DEBUG AbstractCollectionPersister:675 -  Row update: update goodstype_childrenSet set childrenSet_gook_pk=? where goodsType_childrenSet=? and childrenSet_gook_pk=?
+20:36:14,545 DEBUG AbstractCollectionPersister:678 -  Row delete: delete from goodstype_childrenSet where goodsType_childrenSet=? and childrenSet_gook_pk=?
+20:36:14,545 DEBUG AbstractCollectionPersister:681 -  One-shot delete: delete from goodstype_childrenSet where goodsType_childrenSet=?
+20:36:14,546 DEBUG AbstractCollectionPersister:670 - Static SQL for collection: qin.mobilegoods.domain.MobileGoods.imagesMap
+20:36:14,547 DEBUG AbstractCollectionPersister:672 -  Row insert: insert into mobileGoods_imagesMap (col_images_mobile, col_images_index_mobile, element_images_mobile) values (?, ?, ?)
+20:36:14,547 DEBUG AbstractCollectionPersister:675 -  Row update: update mobileGoods_imagesMap set element_images_mobile=? where col_images_mobile=? and col_images_index_mobile=?
+20:36:14,548 DEBUG AbstractCollectionPersister:678 -  Row delete: delete from mobileGoods_imagesMap where col_images_mobile=? and col_images_index_mobile=?
+20:36:14,548 DEBUG AbstractCollectionPersister:681 -  One-shot delete: delete from mobileGoods_imagesMap where col_images_mobile=?
+20:36:14,550 DEBUG AbstractCollectionPersister:670 - Static SQL for collection: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+20:36:14,550 DEBUG AbstractCollectionPersister:672 -  Row insert: insert into mobileGoodsSet_goodsType (goodsType_mobileSet, mobileGoodsSet_mobileGoods_id) values (?, ?)
+20:36:14,551 DEBUG AbstractCollectionPersister:675 -  Row update: update mobileGoodsSet_goodsType set mobileGoodsSet_mobileGoods_id=? where goodsType_mobileSet=? and mobileGoodsSet_mobileGoods_id=?
+20:36:14,551 DEBUG AbstractCollectionPersister:678 -  Row delete: delete from mobileGoodsSet_goodsType where goodsType_mobileSet=? and mobileGoodsSet_mobileGoods_id=?
+20:36:14,552 DEBUG AbstractCollectionPersister:681 -  One-shot delete: delete from mobileGoodsSet_goodsType where goodsType_mobileSet=?
+20:36:14,568 DEBUG AbstractEntityPersister:3544 - Static SQL for entity: qin.mobilegoods.domain.MobileGoods
+20:36:14,569 DEBUG AbstractEntityPersister:3549 -  Version select: select mobileGoods_id from tb_mobileGoods8 where mobileGoods_id =?
+20:36:14,570 DEBUG AbstractEntityPersister:3552 -  Snapshot select: select mobilegood_.mobileGoods_id, mobilegood_.mobile_goodsNumber as mobile_goodsNumber2_5_, mobilegood_.mobile_goodsName as mobile_goodsName3_5_, mobilegood_.mobile_goodsPrice as mobile_goodsPrice4_5_, mobilegood_.mobile_goodsDescription as mobile_goodsDescri5_5_, mobilegood_.mobile_os as mobile_os6_5_, mobilegood_.mobile_memory as mobile_memory7_5_, mobilegood_.mobile_frontCamera as mobile_frontCamera8_5_, mobilegood_.mobile_news as mobile_news9_5_, mobilegood_.mobile_backCamera as mobile_backCamera10_5_, mobilegood_.mobile_battery as mobile_battery11_5_, mobilegood_.mobile_rom as mobile_rom12_5_, mobilegood_.mobile_color as mobile_color13_5_, mobilegood_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_ from tb_mobileGoods8 mobilegood_ inner join mobileGoods_goodsType mobilegood_1_ on mobilegood_.mobileGoods_id=mobilegood_1_.col_mobileGoodsType where mobilegood_.mobileGoods_id=?
+20:36:14,571 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into tb_mobileGoods8 (mobile_goodsNumber, mobile_goodsName, mobile_goodsPrice, mobile_goodsDescription, mobile_os, mobile_memory, mobile_frontCamera, mobile_news, mobile_backCamera, mobile_battery, mobile_rom, mobile_color, mobileGoods_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+20:36:14,571 DEBUG AbstractEntityPersister:394 -  Update 0: update tb_mobileGoods8 set mobile_goodsNumber=?, mobile_goodsName=?, mobile_goodsPrice=?, mobile_goodsDescription=?, mobile_os=?, mobile_memory=?, mobile_frontCamera=?, mobile_news=?, mobile_backCamera=?, mobile_battery=?, mobile_rom=?, mobile_color=? where mobileGoods_id=?
+20:36:14,571 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from tb_mobileGoods8 where mobileGoods_id=?
+20:36:14,572 DEBUG AbstractEntityPersister:394 -  Insert 1: insert into mobileGoods_goodsType (col_mobileGoodsTypeMany2One, col_mobileGoodsType) values (?, ?)
+20:36:14,572 DEBUG AbstractEntityPersister:394 -  Update 1: update mobileGoods_goodsType set col_mobileGoodsTypeMany2One=? where col_mobileGoodsType=?
+20:36:14,572 DEBUG AbstractEntityPersister:394 -  Delete 1: delete from mobileGoods_goodsType where col_mobileGoodsType=?
+20:36:14,628 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b8bd798]
+20:36:14,631 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,631 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,632 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,632 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,632 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,633 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,633 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,633 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,634 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,634 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,634 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,634 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,635 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,646 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@44a6a68e]
+20:36:14,650 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,651 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6fc29daa]
+20:36:14,654 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,686 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,695 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,698 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [NONE]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=?
+20:36:14,699 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d425813]
+20:36:14,699 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,699 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,699 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,700 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,700 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,700 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,700 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,701 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,701 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,701 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,701 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,702 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,702 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,702 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6a937336]
+20:36:14,703 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,703 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@278667fd]
+20:36:14,703 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,705 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,706 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,707 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [READ]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=?
+20:36:14,708 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@684b31de]
+20:36:14,708 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,708 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,708 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,709 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,709 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,709 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,709 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,710 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,710 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,710 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,710 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,711 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,711 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,711 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1a2909ae]
+20:36:14,712 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,712 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e042c99]
+20:36:14,712 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,713 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,714 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,714 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [UPGRADE]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update
+20:36:14,715 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f702946]
+20:36:14,715 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,715 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,716 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,716 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,716 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,716 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,717 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,717 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,717 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,718 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,718 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,718 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,719 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,719 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1000d54d]
+20:36:14,719 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,720 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f4f5330]
+20:36:14,720 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,721 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,722 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,722 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [UPGRADE_NOWAIT]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update nowait
+20:36:14,723 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14b7786]
+20:36:14,724 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,724 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,724 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,725 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,725 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,725 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,725 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,726 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,726 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,726 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,726 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,727 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,727 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,727 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@63b3ee82]
+20:36:14,728 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,728 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2620e717]
+20:36:14,729 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,729 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,730 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,730 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [UPGRADE_SKIPLOCKED]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update skip locked
+20:36:14,730 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c8d5312]
+20:36:14,731 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,731 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,731 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,732 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,732 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,732 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,733 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,733 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,733 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,734 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,734 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,734 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,735 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,735 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@a0db585]
+20:36:14,735 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,736 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b34e38c]
+20:36:14,736 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,738 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,739 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,739 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [FORCE]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update nowait
+20:36:14,739 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3d37203b]
+20:36:14,740 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,740 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,740 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,741 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,741 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,741 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,742 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,742 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,742 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,742 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,743 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,743 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,743 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,744 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1894593a]
+20:36:14,744 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,744 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14b0e127]
+20:36:14,745 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,745 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,746 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,747 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [PESSIMISTIC_READ]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update
+20:36:14,747 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10823d72]
+20:36:14,747 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,748 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,748 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,748 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,748 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,749 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,749 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,749 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,749 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,750 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,750 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,750 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,751 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,751 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@468dda3e]
+20:36:14,751 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,752 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5527b211]
+20:36:14,752 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,753 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,755 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,755 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [PESSIMISTIC_WRITE]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update
+20:36:14,755 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54cf7c6a]
+20:36:14,756 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,756 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,756 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,756 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,757 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,757 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,758 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,758 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,758 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,759 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,759 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,760 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,760 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,761 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@50756c76]
+20:36:14,761 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,761 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38aafb53]
+20:36:14,762 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,763 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,764 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,764 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [PESSIMISTIC_FORCE_INCREMENT]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=? for update nowait
+20:36:14,765 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1729ec00]
+20:36:14,765 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,765 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,766 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,766 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,766 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,767 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,767 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,768 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,768 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,768 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,768 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,769 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,769 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,769 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1c9e07c6]
+20:36:14,770 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,770 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@73010765]
+20:36:14,770 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,771 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,772 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,772 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [OPTIMISTIC]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=?
+20:36:14,773 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b10ace9]
+20:36:14,773 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:14,773 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:14,774 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:14,774 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:14,775 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:14,775 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:14,775 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:14,775 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:14,776 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:14,776 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:14,776 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:14,777 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:14,777 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:14,777 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3eda0aeb]
+20:36:14,778 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:14,778 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@459b187a]
+20:36:14,779 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,780 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,781 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.MobileGoods)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.MobileGoods)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.MobileGoods.mobileGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.MobileGoods)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {mobileGoods_id1_5_0_}
+
+20:36:14,781 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.MobileGoods [OPTIMISTIC_FORCE_INCREMENT]: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=?
+20:36:14,812 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity qin.mobilegoods.domain.MobileGoods: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=?
+20:36:14,813 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity qin.mobilegoods.domain.MobileGoods: select mobilegood0_.mobileGoods_id as mobileGoods_id1_5_0_, mobilegood0_.mobile_goodsNumber as mobile_goodsNumber2_5_0_, mobilegood0_.mobile_goodsName as mobile_goodsName3_5_0_, mobilegood0_.mobile_goodsPrice as mobile_goodsPrice4_5_0_, mobilegood0_.mobile_goodsDescription as mobile_goodsDescri5_5_0_, mobilegood0_.mobile_os as mobile_os6_5_0_, mobilegood0_.mobile_memory as mobile_memory7_5_0_, mobilegood0_.mobile_frontCamera as mobile_frontCamera8_5_0_, mobilegood0_.mobile_news as mobile_news9_5_0_, mobilegood0_.mobile_backCamera as mobile_backCamera10_5_0_, mobilegood0_.mobile_battery as mobile_battery11_5_0_, mobilegood0_.mobile_rom as mobile_rom12_5_0_, mobilegood0_.mobile_color as mobile_color13_5_0_, mobilegood0_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_0_ from tb_mobileGoods8 mobilegood0_ inner join mobileGoods_goodsType mobilegood0_1_ on mobilegood0_.mobileGoods_id=mobilegood0_1_.col_mobileGoodsType where mobilegood0_.mobileGoods_id=?
+20:36:14,814 DEBUG AbstractEntityPersister:3544 - Static SQL for entity: qin.mobilegoods.domain.GoodsType
+20:36:14,814 DEBUG AbstractEntityPersister:3549 -  Version select: select gook_pk from tb_goodsType8 where gook_pk =?
+20:36:14,814 DEBUG AbstractEntityPersister:3552 -  Snapshot select: select goodstype_.gook_pk, goodstype_.goods_typeDescription as goods_typeDescript2_4_, goodstype_.goods_typeName as goods_typeName3_4_, goodstype_.goodsType_parentId as goodsType_parentId4_4_ from tb_goodsType8 goodstype_ where goodstype_.gook_pk=?
+20:36:14,815 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into tb_goodsType8 (goods_typeDescription, goods_typeName, goodsType_parentId, gook_pk) values (?, ?, ?, ?)
+20:36:14,815 DEBUG AbstractEntityPersister:394 -  Update 0: update tb_goodsType8 set goods_typeDescription=?, goods_typeName=?, goodsType_parentId=? where gook_pk=?
+20:36:14,816 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from tb_goodsType8 where gook_pk=?
+20:36:14,816 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5a2fa51f]
+20:36:14,816 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,818 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6ecdbab8]
+20:36:14,820 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29138d3a]
+20:36:14,831 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.childrenSet
+20:36:14,832 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.childrenSet
+20:36:14,833 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.goods_typeDescription
+20:36:14,833 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.goods_typeName
+20:36:14,833 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet
+20:36:14,834 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@66f0548d]
+20:36:14,835 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e6f610d]
+20:36:14,835 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_number
+20:36:14,836 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_name
+20:36:14,836 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_price
+20:36:14,837 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_description
+20:36:14,837 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_os
+20:36:14,837 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_memory
+20:36:14,838 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_frontCamera
+20:36:14,838 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_news
+20:36:14,838 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_backCamera
+20:36:14,839 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_battery
+20:36:14,839 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_rom
+20:36:14,839 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_color
+20:36:14,840 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.imagesMap
+20:36:14,840 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@741f8dbe]
+20:36:14,840 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobileGoodsType
+20:36:14,841 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@212dfd39]
+20:36:14,841 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType
+20:36:14,842 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a2ddf26]
+20:36:14,842 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.childrenSet
+20:36:14,843 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.parentGoodsType.childrenSet
+20:36:14,843 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.goods_typeDescription
+20:36:14,844 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.goods_typeName
+20:36:14,844 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.mobileGoodsSet
+20:36:14,844 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.parentGoodsType.mobileGoodsSet
+20:36:14,845 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.parentGoodsType
+20:36:14,845 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.parentGoodsType.parentGoodsType
+20:36:14,847 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,847 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,847 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,848 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : mobileGoodsSet
+20:36:14,848 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,849 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : parentGoodsType
+20:36:14,849 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,849 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,858 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+                - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet.<elements>)
+                      - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet.<elements>.imagesMap)
+                      - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:6>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet.<elements>.mobileGoodsType)
+                - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:7>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+          - JOIN (JoinDefinedByMetadata(childrenSet)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=qin.mobilegoods.domain.GoodsType.childrenSet)
+                - SQL table alias mapping - childrense1_
+                - alias suffix - 1_
+                - suffixed key columns - {goodsType_children1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - gook_pk1_4_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=qin.mobilegoods.domain.GoodsType)
+                      - SQL table alias mapping - goodstype2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {gook_pk1_4_2_}
+                      - JOIN (JoinDefinedByMetadata(mobileGoodsSet)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+                            - SQL table alias mapping - mobilegood3_
+                            - alias suffix - 3_
+                            - suffixed key columns - {goodsType_mobileSe1_3_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - mobileGoods_id1_5_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=qin.mobilegoods.domain.MobileGoods)
+                                  - SQL table alias mapping - mobilegood4_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {mobileGoods_id1_5_4_}
+                      - JOIN (JoinDefinedByMetadata(parentGoodsType)) : <gen:2> -> <gen:7>
+                         - EntityQuerySpaceImpl(uid=<gen:7>, entity=qin.mobilegoods.domain.GoodsType)
+                            - SQL table alias mapping - goodstype5_
+                            - alias suffix - 5_
+                            - suffixed key columns - {gook_pk1_4_5_}
+
+20:36:14,861 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [NONE]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_, childrense1_.goodsType_childrenSet as goodsType_children1_0_1_, goodstype2_.gook_pk as childrenSet_gook_p2_0_1_, goodstype2_.gook_pk as gook_pk1_4_2_, goodstype2_.goods_typeDescription as goods_typeDescript2_4_2_, goodstype2_.goods_typeName as goods_typeName3_4_2_, goodstype2_.goodsType_parentId as goodsType_parentId4_4_2_, mobilegood3_.goodsType_mobileSet as goodsType_mobileSe1_3_3_, mobilegood4_.mobileGoods_id as mobileGoodsSet_mob2_3_3_, mobilegood4_.mobileGoods_id as mobileGoods_id1_5_4_, mobilegood4_.mobile_goodsNumber as mobile_goodsNumber2_5_4_, mobilegood4_.mobile_goodsName as mobile_goodsName3_5_4_, mobilegood4_.mobile_goodsPrice as mobile_goodsPrice4_5_4_, mobilegood4_.mobile_goodsDescription as mobile_goodsDescri5_5_4_, mobilegood4_.mobile_os as mobile_os6_5_4_, mobilegood4_.mobile_memory as mobile_memory7_5_4_, mobilegood4_.mobile_frontCamera as mobile_frontCamera8_5_4_, mobilegood4_.mobile_news as mobile_news9_5_4_, mobilegood4_.mobile_backCamera as mobile_backCamera10_5_4_, mobilegood4_.mobile_battery as mobile_battery11_5_4_, mobilegood4_.mobile_rom as mobile_rom12_5_4_, mobilegood4_.mobile_color as mobile_color13_5_4_, mobilegood4_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_4_, goodstype5_.gook_pk as gook_pk1_4_5_, goodstype5_.goods_typeDescription as goods_typeDescript2_4_5_, goodstype5_.goods_typeName as goods_typeName3_4_5_, goodstype5_.goodsType_parentId as goodsType_parentId4_4_5_ from tb_goodsType8 goodstype0_ left outer join goodstype_childrenSet childrense1_ on goodstype0_.gook_pk=childrense1_.goodsType_childrenSet left outer join tb_goodsType8 goodstype2_ on childrense1_.childrenSet_gook_pk=goodstype2_.gook_pk left outer join mobileGoodsSet_goodsType mobilegood3_ on goodstype2_.gook_pk=mobilegood3_.goodsType_mobileSet left outer join tb_mobileGoods8 mobilegood4_ on mobilegood3_.mobileGoodsSet_mobileGoods_id=mobilegood4_.mobileGoods_id left outer join mobileGoods_goodsType mobilegood4_1_ on mobilegood4_.mobileGoods_id=mobilegood4_1_.col_mobileGoodsType left outer join tb_goodsType8 goodstype5_ on goodstype2_.goodsType_parentId=goodstype5_.gook_pk where goodstype0_.gook_pk=?
+20:36:14,862 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@704641e3]
+20:36:14,862 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,863 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4207609e]
+20:36:14,863 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f77b5cc]
+20:36:14,864 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.childrenSet
+20:36:14,865 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.childrenSet
+20:36:14,866 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.goods_typeDescription
+20:36:14,866 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.goods_typeName
+20:36:14,867 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet
+20:36:14,867 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@c6c82aa]
+20:36:14,868 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e179f3e]
+20:36:14,869 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_number
+20:36:14,869 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_name
+20:36:14,869 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_price
+20:36:14,870 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.goods_description
+20:36:14,870 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_os
+20:36:14,871 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_memory
+20:36:14,871 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_frontCamera
+20:36:14,872 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_news
+20:36:14,872 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_backCamera
+20:36:14,873 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_battery
+20:36:14,873 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_rom
+20:36:14,873 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobile_color
+20:36:14,874 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.imagesMap
+20:36:14,875 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3bddc676]
+20:36:14,875 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.mobileGoodsSet.mobileGoodsType
+20:36:14,876 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29a1505c]
+20:36:14,876 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType
+20:36:14,876 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:7> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@24db6ce]
+20:36:14,877 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.childrenSet
+20:36:14,877 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.parentGoodsType.childrenSet
+20:36:14,877 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.goods_typeDescription
+20:36:14,878 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.goods_typeName
+20:36:14,878 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.mobileGoodsSet
+20:36:14,883 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.parentGoodsType.mobileGoodsSet
+20:36:14,884 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet.parentGoodsType.parentGoodsType
+20:36:14,885 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet.parentGoodsType.parentGoodsType
+20:36:14,886 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,886 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,886 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,886 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : mobileGoodsSet
+20:36:14,887 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,887 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : parentGoodsType
+20:36:14,888 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,889 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,891 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+                - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet.<elements>)
+                      - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet.<elements>.imagesMap)
+                      - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:6>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.mobileGoodsSet.<elements>.mobileGoodsType)
+                - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:7>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+          - JOIN (JoinDefinedByMetadata(childrenSet)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=qin.mobilegoods.domain.GoodsType.childrenSet)
+                - SQL table alias mapping - childrense1_
+                - alias suffix - 1_
+                - suffixed key columns - {goodsType_children1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - gook_pk1_4_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=qin.mobilegoods.domain.GoodsType)
+                      - SQL table alias mapping - goodstype2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {gook_pk1_4_2_}
+                      - JOIN (JoinDefinedByMetadata(mobileGoodsSet)) : <gen:2> -> <gen:3>
+                         - CollectionQuerySpaceImpl(uid=<gen:3>, collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+                            - SQL table alias mapping - mobilegood3_
+                            - alias suffix - 3_
+                            - suffixed key columns - {goodsType_mobileSe1_3_3_}
+                            - entity-element alias suffix - 4_
+                            - 4_entity-element suffixed key columns - mobileGoods_id1_5_4_
+                            - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                               - EntityQuerySpaceImpl(uid=<gen:4>, entity=qin.mobilegoods.domain.MobileGoods)
+                                  - SQL table alias mapping - mobilegood4_
+                                  - alias suffix - 4_
+                                  - suffixed key columns - {mobileGoods_id1_5_4_}
+                      - JOIN (JoinDefinedByMetadata(parentGoodsType)) : <gen:2> -> <gen:7>
+                         - EntityQuerySpaceImpl(uid=<gen:7>, entity=qin.mobilegoods.domain.GoodsType)
+                            - SQL table alias mapping - goodstype5_
+                            - alias suffix - 5_
+                            - suffixed key columns - {gook_pk1_4_5_}
+
+20:36:14,893 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [READ]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_, childrense1_.goodsType_childrenSet as goodsType_children1_0_1_, goodstype2_.gook_pk as childrenSet_gook_p2_0_1_, goodstype2_.gook_pk as gook_pk1_4_2_, goodstype2_.goods_typeDescription as goods_typeDescript2_4_2_, goodstype2_.goods_typeName as goods_typeName3_4_2_, goodstype2_.goodsType_parentId as goodsType_parentId4_4_2_, mobilegood3_.goodsType_mobileSet as goodsType_mobileSe1_3_3_, mobilegood4_.mobileGoods_id as mobileGoodsSet_mob2_3_3_, mobilegood4_.mobileGoods_id as mobileGoods_id1_5_4_, mobilegood4_.mobile_goodsNumber as mobile_goodsNumber2_5_4_, mobilegood4_.mobile_goodsName as mobile_goodsName3_5_4_, mobilegood4_.mobile_goodsPrice as mobile_goodsPrice4_5_4_, mobilegood4_.mobile_goodsDescription as mobile_goodsDescri5_5_4_, mobilegood4_.mobile_os as mobile_os6_5_4_, mobilegood4_.mobile_memory as mobile_memory7_5_4_, mobilegood4_.mobile_frontCamera as mobile_frontCamera8_5_4_, mobilegood4_.mobile_news as mobile_news9_5_4_, mobilegood4_.mobile_backCamera as mobile_backCamera10_5_4_, mobilegood4_.mobile_battery as mobile_battery11_5_4_, mobilegood4_.mobile_rom as mobile_rom12_5_4_, mobilegood4_.mobile_color as mobile_color13_5_4_, mobilegood4_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_4_, goodstype5_.gook_pk as gook_pk1_4_5_, goodstype5_.goods_typeDescription as goods_typeDescript2_4_5_, goodstype5_.goods_typeName as goods_typeName3_4_5_, goodstype5_.goodsType_parentId as goodsType_parentId4_4_5_ from tb_goodsType8 goodstype0_ left outer join goodstype_childrenSet childrense1_ on goodstype0_.gook_pk=childrense1_.goodsType_childrenSet left outer join tb_goodsType8 goodstype2_ on childrense1_.childrenSet_gook_pk=goodstype2_.gook_pk left outer join mobileGoodsSet_goodsType mobilegood3_ on goodstype2_.gook_pk=mobilegood3_.goodsType_mobileSet left outer join tb_mobileGoods8 mobilegood4_ on mobilegood3_.mobileGoodsSet_mobileGoods_id=mobilegood4_.mobileGoods_id left outer join mobileGoods_goodsType mobilegood4_1_ on mobilegood4_.mobileGoods_id=mobilegood4_1_.col_mobileGoodsType left outer join tb_goodsType8 goodstype5_ on goodstype2_.goodsType_parentId=goodstype5_.gook_pk where goodstype0_.gook_pk=?
+20:36:14,894 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67b100fe]
+20:36:14,895 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,895 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2ba5aa7a]
+20:36:14,895 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d3ca6c7]
+20:36:14,896 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,896 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,896 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,897 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@22e5f96e]
+20:36:14,897 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a638c79]
+20:36:14,900 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,900 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6c931d35]
+20:36:14,901 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,901 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,902 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,903 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [UPGRADE]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update
+20:36:14,903 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44b194fe]
+20:36:14,904 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,904 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3fe46690]
+20:36:14,905 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4beabeec]
+20:36:14,905 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,905 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,906 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,906 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3b4d50b]
+20:36:14,906 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b22d8a1]
+20:36:14,909 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,909 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@476ee5b3]
+20:36:14,910 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,910 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,911 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,911 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [UPGRADE_NOWAIT]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update nowait
+20:36:14,912 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59ed3e6c]
+20:36:14,912 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,913 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@317e9c3c]
+20:36:14,913 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18da4dd]
+20:36:14,913 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,914 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,914 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,914 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@31a3f4de]
+20:36:14,915 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68880c21]
+20:36:14,917 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,918 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2dd2e270]
+20:36:14,919 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,920 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,922 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,923 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [UPGRADE_SKIPLOCKED]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update skip locked
+20:36:14,924 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f3e19b3]
+20:36:14,924 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,926 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7d04529c]
+20:36:14,927 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14fa92af]
+20:36:14,927 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,928 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,928 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,928 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@b16e202]
+20:36:14,929 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@339a3670]
+20:36:14,930 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,930 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6cd5122d]
+20:36:14,933 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,933 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,934 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,936 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [FORCE]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update nowait
+20:36:14,936 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c7a8af2]
+20:36:14,937 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,937 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@720bf653]
+20:36:14,938 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@360bc645]
+20:36:14,938 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,938 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,938 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,939 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4edef76c]
+20:36:14,939 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d51e129]
+20:36:14,940 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,940 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70c53dbe]
+20:36:14,941 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,942 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,943 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,943 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [PESSIMISTIC_READ]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update
+20:36:14,944 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1894e40d]
+20:36:14,944 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,944 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7342e05d]
+20:36:14,945 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a331b46]
+20:36:14,945 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,946 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,946 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,947 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@15383681]
+20:36:14,948 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@743e66f7]
+20:36:14,948 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,949 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@109a2025]
+20:36:14,949 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,950 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,953 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,954 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [PESSIMISTIC_WRITE]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update
+20:36:14,957 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2241f05b]
+20:36:14,958 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,958 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@71978f46]
+20:36:14,959 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@304d0259]
+20:36:14,959 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,959 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,960 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,960 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1d23ff23]
+20:36:14,960 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2133661d]
+20:36:14,961 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,962 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6c9320c2]
+20:36:14,962 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,963 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,964 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,966 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [PESSIMISTIC_FORCE_INCREMENT]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=? for update nowait
+20:36:14,967 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3414a8c3]
+20:36:14,967 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,968 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@cf518cf]
+20:36:14,968 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7915bca3]
+20:36:14,969 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,969 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,969 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,970 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@68d651f2]
+20:36:14,970 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ad4a7d6]
+20:36:14,970 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,971 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e43e323]
+20:36:14,971 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,972 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,976 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,977 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [OPTIMISTIC]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=?
+20:36:14,977 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a67b4ec]
+20:36:14,978 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:14,978 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@f91da5e]
+20:36:14,979 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@eca6a74]
+20:36:14,979 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:14,979 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:14,980 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:14,984 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@79fd6f95]
+20:36:14,984 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@48840594]
+20:36:14,985 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:14,986 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49c675f0]
+20:36:14,988 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:14,989 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:14,990 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=qin.mobilegoods.domain.GoodsType)
+    - Returns
+       - EntityReturnImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:0>, path=qin.mobilegoods.domain.GoodsType)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:1>, path=qin.mobilegoods.domain.GoodsType.childrenSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:2>, path=qin.mobilegoods.domain.GoodsType.childrenSet.<elements>)
+          - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:3>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:4>, path=qin.mobilegoods.domain.GoodsType.mobileGoodsSet.<elements>)
+          - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:5>, path=qin.mobilegoods.domain.GoodsType.parentGoodsType)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=qin.mobilegoods.domain.GoodsType)
+          - SQL table alias mapping - goodstype0_
+          - alias suffix - 0_
+          - suffixed key columns - {gook_pk1_4_0_}
+
+20:36:14,990 DEBUG EntityLoader:115 - Static select for entity qin.mobilegoods.domain.GoodsType [OPTIMISTIC_FORCE_INCREMENT]: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=?
+20:36:14,991 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity qin.mobilegoods.domain.GoodsType: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=?
+20:36:14,991 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity qin.mobilegoods.domain.GoodsType: select goodstype0_.gook_pk as gook_pk1_4_0_, goodstype0_.goods_typeDescription as goods_typeDescript2_4_0_, goodstype0_.goods_typeName as goods_typeName3_4_0_, goodstype0_.goodsType_parentId as goodsType_parentId4_4_0_ from tb_goodsType8 goodstype0_ where goodstype0_.gook_pk=?
+20:36:14,999 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@36a6bea6]
+20:36:14,999 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44e93c1f]
+20:36:15,000 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : childrenSet
+20:36:15,000 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : childrenSet
+20:36:15,001 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeDescription
+20:36:15,001 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_typeName
+20:36:15,003 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsSet
+20:36:15,004 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@a62c7cd]
+20:36:15,004 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7661b5a]
+20:36:15,004 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType
+20:36:15,005 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c36db44]
+20:36:15,005 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType.childrenSet
+20:36:15,005 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : parentGoodsType.childrenSet
+20:36:15,006 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType.goods_typeDescription
+20:36:15,006 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType.goods_typeName
+20:36:15,006 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType.mobileGoodsSet
+20:36:15,007 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7903d448]
+20:36:15,007 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e08acf9]
+20:36:15,007 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : parentGoodsType.parentGoodsType
+20:36:15,008 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : parentGoodsType.parentGoodsType
+20:36:15,008 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:15,012 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:15,013 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=qin.mobilegoods.domain.GoodsType.childrenSet)
+    - Returns
+       - CollectionReturnImpl(collection=qin.mobilegoods.domain.GoodsType.childrenSet, querySpaceUid=<gen:0>, path=[qin.mobilegoods.domain.GoodsType.childrenSet])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:1>, path=[qin.mobilegoods.domain.GoodsType.childrenSet].<elements>)
+             - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:2>, path=[qin.mobilegoods.domain.GoodsType.childrenSet].<elements>.mobileGoodsSet)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:3>, path=[qin.mobilegoods.domain.GoodsType.childrenSet].<elements>.mobileGoodsSet.<elements>)
+             - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:4>, path=[qin.mobilegoods.domain.GoodsType.childrenSet].<elements>.parentGoodsType)
+                - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:5>, path=[qin.mobilegoods.domain.GoodsType.childrenSet].<elements>.parentGoodsType.mobileGoodsSet)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:6>, path=[qin.mobilegoods.domain.GoodsType.childrenSet].<elements>.parentGoodsType.mobileGoodsSet.<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=qin.mobilegoods.domain.GoodsType.childrenSet)
+          - SQL table alias mapping - childrense0_
+          - alias suffix - 0_
+          - suffixed key columns - {goodsType_children1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - gook_pk1_4_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=qin.mobilegoods.domain.GoodsType)
+                - SQL table alias mapping - goodstype1_
+                - alias suffix - 1_
+                - suffixed key columns - {gook_pk1_4_1_}
+                - JOIN (JoinDefinedByMetadata(parentGoodsType)) : <gen:1> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=qin.mobilegoods.domain.GoodsType)
+                      - SQL table alias mapping - goodstype2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {gook_pk1_4_2_}
+
+20:36:15,016 DEBUG CollectionLoader:83 - Static select for collection qin.mobilegoods.domain.GoodsType.childrenSet: select childrense0_.goodsType_childrenSet as goodsType_children1_0_0_, childrense0_.childrenSet_gook_pk as childrenSet_gook_p2_0_0_, goodstype1_.gook_pk as gook_pk1_4_1_, goodstype1_.goods_typeDescription as goods_typeDescript2_4_1_, goodstype1_.goods_typeName as goods_typeName3_4_1_, goodstype1_.goodsType_parentId as goodsType_parentId4_4_1_, goodstype2_.gook_pk as gook_pk1_4_2_, goodstype2_.goods_typeDescription as goods_typeDescript2_4_2_, goodstype2_.goods_typeName as goods_typeName3_4_2_, goodstype2_.goodsType_parentId as goodsType_parentId4_4_2_ from goodstype_childrenSet childrense0_ inner join tb_goodsType8 goodstype1_ on childrense0_.childrenSet_gook_pk=goodstype1_.gook_pk left outer join tb_goodsType8 goodstype2_ on goodstype1_.goodsType_parentId=goodstype2_.gook_pk where childrense0_.goodsType_childrenSet=?
+20:36:15,017 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@858d8b4]
+20:36:15,018 DEBUG MetamodelGraphWalker:221 - Visiting index for collection :  
+20:36:15,019 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:15,019 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:15,020 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=qin.mobilegoods.domain.MobileGoods.imagesMap)
+    - Returns
+       - CollectionReturnImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:0>, path=[qin.mobilegoods.domain.MobileGoods.imagesMap])
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=qin.mobilegoods.domain.MobileGoods.imagesMap)
+          - SQL table alias mapping - imagesmap0_
+          - alias suffix - 0_
+          - suffixed key columns - {col_images_mobile1_2_0_}
+
+20:36:15,020 DEBUG CollectionLoader:83 - Static select for collection qin.mobilegoods.domain.MobileGoods.imagesMap: select imagesmap0_.col_images_mobile as col_images_mobile1_2_0_, imagesmap0_.element_images_mobile as element_images_mob3_2_0_, imagesmap0_.col_images_index_mobile as col_images_index_m2_0_ from mobileGoods_imagesMap imagesmap0_ where imagesmap0_.col_images_mobile=?
+20:36:15,020 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7efd28bd]
+20:36:15,021 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@672b72ba]
+20:36:15,021 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_number
+20:36:15,022 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_name
+20:36:15,022 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_price
+20:36:15,022 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : goods_description
+20:36:15,022 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_os
+20:36:15,023 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_memory
+20:36:15,023 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_frontCamera
+20:36:15,023 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_news
+20:36:15,024 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_backCamera
+20:36:15,024 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_battery
+20:36:15,024 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_rom
+20:36:15,024 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobile_color
+20:36:15,025 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : imagesMap
+20:36:15,025 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@26844abb]
+20:36:15,025 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : mobileGoodsType
+20:36:15,026 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a865273]
+20:36:15,026 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+20:36:15,027 DEBUG LoadQueryJoinAndFetchProcessor:100 - processing queryspace <gen:0>
+20:36:15,028 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+    - Returns
+       - CollectionReturnImpl(collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet, querySpaceUid=<gen:0>, path=[qin.mobilegoods.domain.GoodsType.mobileGoodsSet])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=qin.mobilegoods.domain.MobileGoods, querySpaceUid=<gen:1>, path=[qin.mobilegoods.domain.GoodsType.mobileGoodsSet].<elements>)
+             - CollectionAttributeFetchImpl(collection=qin.mobilegoods.domain.MobileGoods.imagesMap, querySpaceUid=<gen:2>, path=[qin.mobilegoods.domain.GoodsType.mobileGoodsSet].<elements>.imagesMap)
+             - EntityAttributeFetchImpl(entity=qin.mobilegoods.domain.GoodsType, querySpaceUid=<gen:3>, path=[qin.mobilegoods.domain.GoodsType.mobileGoodsSet].<elements>.mobileGoodsType)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=qin.mobilegoods.domain.GoodsType.mobileGoodsSet)
+          - SQL table alias mapping - mobilegood0_
+          - alias suffix - 0_
+          - suffixed key columns - {goodsType_mobileSe1_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - mobileGoods_id1_5_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=qin.mobilegoods.domain.MobileGoods)
+                - SQL table alias mapping - mobilegood1_
+                - alias suffix - 1_
+                - suffixed key columns - {mobileGoods_id1_5_1_}
+
+20:36:15,028 DEBUG CollectionLoader:83 - Static select for collection qin.mobilegoods.domain.GoodsType.mobileGoodsSet: select mobilegood0_.goodsType_mobileSet as goodsType_mobileSe1_3_0_, mobilegood0_.mobileGoodsSet_mobileGoods_id as mobileGoodsSet_mob2_3_0_, mobilegood1_.mobileGoods_id as mobileGoods_id1_5_1_, mobilegood1_.mobile_goodsNumber as mobile_goodsNumber2_5_1_, mobilegood1_.mobile_goodsName as mobile_goodsName3_5_1_, mobilegood1_.mobile_goodsPrice as mobile_goodsPrice4_5_1_, mobilegood1_.mobile_goodsDescription as mobile_goodsDescri5_5_1_, mobilegood1_.mobile_os as mobile_os6_5_1_, mobilegood1_.mobile_memory as mobile_memory7_5_1_, mobilegood1_.mobile_frontCamera as mobile_frontCamera8_5_1_, mobilegood1_.mobile_news as mobile_news9_5_1_, mobilegood1_.mobile_backCamera as mobile_backCamera10_5_1_, mobilegood1_.mobile_battery as mobile_battery11_5_1_, mobilegood1_.mobile_rom as mobile_rom12_5_1_, mobilegood1_.mobile_color as mobile_color13_5_1_, mobilegood1_1_.col_mobileGoodsTypeMany2One as col_mobileGoodsTyp2_1_1_ from mobileGoodsSet_goodsType mobilegood0_ inner join tb_mobileGoods8 mobilegood1_ on mobilegood0_.mobileGoodsSet_mobileGoods_id=mobilegood1_.mobileGoods_id left outer join mobileGoods_goodsType mobilegood1_1_ on mobilegood1_.mobileGoods_id=mobilegood1_1_.col_mobileGoodsType where mobilegood0_.goodsType_mobileSet=?
+20:36:15,180 DEBUG SQL:92 - 
+    create global temporary table HT_tb_mobileGoods8 (mobileGoods_id number(19,0) not null) 
+        on commit delete rows
+20:36:15,190 DEBUG IdTableHelper:85 - Error attempting to export id-table [create global temporary table HT_tb_mobileGoods8 (mobileGoods_id number(19,0) not null) on commit delete rows] : ORA-00955: 名称已由现有对象使用
+
+20:36:16,110 DEBUG Table:505 - No alter strings for table : goodstype_childrenSet
+20:36:16,110 DEBUG Table:505 - No alter strings for table : mobileGoods_goodsType
+20:36:16,110 DEBUG Table:505 - No alter strings for table : mobileGoods_imagesMap
+20:36:16,111 DEBUG Table:505 - No alter strings for table : mobileGoodsSet_goodsType
+20:36:16,111 DEBUG Table:505 - No alter strings for table : tb_goodsType8
+20:36:16,111 DEBUG Table:505 - No alter strings for table : tb_mobileGoods8
+20:36:17,659 DEBUG JtaPlatformInitiator:42 - No JtaPlatform was specified, checking resolver
+20:36:17,660 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+20:36:17,667 DEBUG StandardJtaPlatformResolver:102 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:36:17,668 DEBUG NamedQueryRepository:151 - Checking 0 named HQL queries
+20:36:17,669 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+20:36:17,671 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@10f7918f
+20:36:17,672 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: 2ac2317b-545b-425c-9c05-ef7a35086763 (<unnamed>)
+20:36:17,672 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+20:36:18,081 DEBUG StatisticsInitiator:82 - Statistics initialized [enabled=false]
+20:36:18,092 DEBUG TransactionImpl:55 - begin

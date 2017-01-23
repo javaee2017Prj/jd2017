@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="orcl12" uuid="1daada9f-79ca-4aad-aef7-1bbf28e9046f">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>system</user-name>
+      <introspection-schemas>*:SYSTEM</introspection-schemas>
+    </data-source>
+    <data-source name="zhoujielun" uuid="244c833e-d75b-4ab8-a1d7-c0eb0cce7bb2">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>C##ZHOUJIELUN</user-name>
+      <introspection-schemas>*:C##ZHOUJIELUN</introspection-schemas>
+      <resolve-scope>*:C##ZHOUJIELUN,PUBLIC</resolve-scope>
+      <unqualified-resolve-schemas>*:C##ZHOUJIELUN,PUBLIC</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>
