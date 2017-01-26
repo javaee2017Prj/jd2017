@@ -116,7 +116,15 @@ public class MobileGoodsController extends MobileUtilsImpl
                 String getMobile_ImagesMap3 = goods.getGetMobile_ImagesMap3().trim();
                 String getMobile_ImagesMap4 = goods.getGetMobile_ImagesMap4().trim();
                 String getMobile_ImagesMap5 = goods.getGetMobile_ImagesMap5().trim();
+
+                if (getMobile_ImagesMap1.length() > 0) imagesMap.put(0, getMobile_ImagesMap1);
+                if (getMobile_ImagesMap2.length() > 0) imagesMap.put(1, getMobile_ImagesMap2);
+                if (getMobile_ImagesMap3.length() > 0) imagesMap.put(2, getMobile_ImagesMap3);
+                if (getMobile_ImagesMap4.length() > 0) imagesMap.put(3, getMobile_ImagesMap4);
+                if (getMobile_ImagesMap5.length() > 0) imagesMap.put(4, getMobile_ImagesMap5);
+
                 //endregion
+                mobileGoods.setImagesMap(imagesMap);
                 mobileService.save(mobileGoods, goodsTypeName);
             }
             else

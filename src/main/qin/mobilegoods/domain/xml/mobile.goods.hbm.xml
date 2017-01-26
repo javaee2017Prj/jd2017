@@ -12,13 +12,13 @@
 
         <!-- 商品编号 -->
         <property name="goods_number">
-            <column name="mobile_goodsNumber" sql-type="number(10)" not-null="true">
+            <column name="mobile_goodsNumber" sql-type="number(30)" not-null="true">
                 <comment>商品编号</comment>
             </column>
         </property>
         <!-- 名称 -->
         <property name="goods_name">
-            <column name="mobile_goodsName" sql-type="varchar2(50)" not-null="true">
+            <column name="mobile_goodsName" sql-type="varchar2(80)" not-null="true">
                 <comment>手机名称</comment>
             </column>
         </property>

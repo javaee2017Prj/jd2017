@@ -1,0 +1,806 @@
+21:04:36,466  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@649d209a: startup date [Tue Jan 24 21:04:36 CST 2017]; root of context hierarchy
+21:04:37,629  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+21:04:39,134  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [oracle.jdbc.properties]
+21:04:39,161  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:04:39,428  INFO JavaEE8DAOSupport:146 - >>>>正在初始化手机商品数据访问层实现类<<<<==========
+
+21:04:40,002  INFO DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+21:04:40,179 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+21:04:40,185 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+21:04:40,204 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+21:04:40,588  INFO Version:45 - HHH000412: Hibernate Core {5.2.5.Final}
+21:04:40,597  INFO Environment:213 - HHH000206: hibernate.properties not found
+21:04:40,653 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+21:04:40,654 DEBUG LocalXmlResourceResolver:85 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+21:04:40,667 DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+21:04:41,242 DEBUG Configuration:724 - Building session factory using internal StandardServiceRegistryBuilder
+21:04:41,257 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+21:04:41,260 DEBUG Configuration:652 - Building session factory using provided StandardServiceRegistry
+21:04:41,368 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+21:04:41,387  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21:04:41,427 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+21:04:41,433  WARN deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+21:04:41,434 DEBUG LocalXmlResourceResolver:79 - Recognized legacy hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:04:41,534 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/mobile.goods.hbm.xml,type=RESOURCE)
+21:04:45,364 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@625abb97
+21:04:45,365 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@625abb97
+21:04:45,366 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@625abb97
+21:04:45,369 DEBUG BasicTypeRegistry:145 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@55342f40
+21:04:45,371 DEBUG BasicTypeRegistry:145 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@6b44435b
+21:04:45,372 DEBUG BasicTypeRegistry:145 - Adding type registration yes_no -> org.hibernate.type.YesNoType@3543df7d
+21:04:45,378 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@5bd82fed
+21:04:45,378 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@5bd82fed
+21:04:45,379 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5bd82fed
+21:04:45,382 DEBUG BasicTypeRegistry:145 - Adding type registration character -> org.hibernate.type.CharacterType@549949be
+21:04:45,383 DEBUG BasicTypeRegistry:145 - Adding type registration char -> org.hibernate.type.CharacterType@549949be
+21:04:45,384 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@549949be
+21:04:45,387 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@a202ccb
+21:04:45,388 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@a202ccb
+21:04:45,389 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@a202ccb
+21:04:45,455 DEBUG BasicTypeRegistry:145 - Adding type registration integer -> org.hibernate.type.IntegerType@3a3e4aff
+21:04:45,462 DEBUG BasicTypeRegistry:145 - Adding type registration int -> org.hibernate.type.IntegerType@3a3e4aff
+21:04:45,463 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3a3e4aff
+21:04:45,467 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@7e22550a
+21:04:45,468 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@7e22550a
+21:04:45,469 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@7e22550a
+21:04:45,473 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@5e81e5ac
+21:04:45,475 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@5e81e5ac
+21:04:45,476 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5e81e5ac
+21:04:45,482 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@3dd1dc90
+21:04:45,483 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@3dd1dc90
+21:04:45,489 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3dd1dc90
+21:04:45,494 DEBUG BasicTypeRegistry:145 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4044fb95
+21:04:45,496 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4044fb95
+21:04:45,499 DEBUG BasicTypeRegistry:145 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1bb564e2
+21:04:45,500 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1bb564e2
+21:04:45,503 DEBUG BasicTypeRegistry:145 - Adding type registration string -> org.hibernate.type.StringType@1cbf6e72
+21:04:45,503 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.String -> org.hibernate.type.StringType@1cbf6e72
+21:04:45,507 DEBUG BasicTypeRegistry:145 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@25b2cfcb
+21:04:45,509 DEBUG BasicTypeRegistry:145 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@21baa903
+21:04:45,513 DEBUG BasicTypeRegistry:145 - Adding type registration url -> org.hibernate.type.UrlType@40cb698e
+21:04:45,514 DEBUG BasicTypeRegistry:145 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@40cb698e
+21:04:45,517 DEBUG BasicTypeRegistry:145 - Adding type registration Duration -> org.hibernate.type.DurationType@4a891c97
+21:04:45,518 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@4a891c97
+21:04:45,563 DEBUG BasicTypeRegistry:145 - Adding type registration Instant -> org.hibernate.type.InstantType@7e928e2f
+21:04:45,564 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@7e928e2f
+21:04:45,570 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1698ee84
+21:04:45,570 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1698ee84
+21:04:45,574 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@75459c75
+21:04:45,575 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@75459c75
+21:04:45,578 DEBUG BasicTypeRegistry:145 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2a3c96e3
+21:04:45,579 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2a3c96e3
+21:04:45,583 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@a776e
+21:04:45,594 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@a776e
+21:04:45,599 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@6821ea29
+21:04:45,599 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@6821ea29
+21:04:45,613 DEBUG BasicTypeRegistry:145 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@18230356
+21:04:45,614 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@18230356
+21:04:45,618 DEBUG BasicTypeRegistry:145 - Adding type registration date -> org.hibernate.type.DateType@22b53226
+21:04:45,618 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@22b53226
+21:04:45,621 DEBUG BasicTypeRegistry:145 - Adding type registration time -> org.hibernate.type.TimeType@ea9b7c6
+21:04:45,622 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@ea9b7c6
+21:04:45,625 DEBUG BasicTypeRegistry:145 - Adding type registration timestamp -> org.hibernate.type.TimestampType@a8e6492
+21:04:45,626 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@a8e6492
+21:04:45,626 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@a8e6492
+21:04:45,636 DEBUG BasicTypeRegistry:145 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7b324585
+21:04:45,640 DEBUG BasicTypeRegistry:145 - Adding type registration calendar -> org.hibernate.type.CalendarType@5974109
+21:04:45,641 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@5974109
+21:04:45,641 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@5974109
+21:04:45,644 DEBUG BasicTypeRegistry:145 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@502f1f4c
+21:04:45,648 DEBUG BasicTypeRegistry:145 - Adding type registration locale -> org.hibernate.type.LocaleType@4fbda97b
+21:04:45,649 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4fbda97b
+21:04:45,651 DEBUG BasicTypeRegistry:145 - Adding type registration currency -> org.hibernate.type.CurrencyType@4879f0f2
+21:04:45,651 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4879f0f2
+21:04:45,654 DEBUG BasicTypeRegistry:145 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5b43fbf6
+21:04:45,655 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5b43fbf6
+21:04:45,659 DEBUG BasicTypeRegistry:145 - Adding type registration class -> org.hibernate.type.ClassType@a4b2d8f
+21:04:45,661 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@a4b2d8f
+21:04:45,699 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4cc6fa2a
+21:04:45,700 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4cc6fa2a
+21:04:45,701 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6f2cb653
+21:04:45,704 DEBUG BasicTypeRegistry:145 - Adding type registration binary -> org.hibernate.type.BinaryType@75ed9710
+21:04:45,705 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.BinaryType@75ed9710
+21:04:45,705 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.BinaryType@75ed9710
+21:04:45,708 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@19fb8826
+21:04:45,710 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@19fb8826
+21:04:45,710 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@19fb8826
+21:04:45,714 DEBUG BasicTypeRegistry:145 - Adding type registration row_version -> org.hibernate.type.RowVersionType@556d0826
+21:04:45,716 DEBUG BasicTypeRegistry:145 - Adding type registration image -> org.hibernate.type.ImageType@749c877b
+21:04:45,719 DEBUG BasicTypeRegistry:145 - Adding type registration characters -> org.hibernate.type.CharArrayType@4a3329b9
+21:04:45,719 DEBUG BasicTypeRegistry:145 - Adding type registration char[] -> org.hibernate.type.CharArrayType@4a3329b9
+21:04:45,721 DEBUG BasicTypeRegistry:145 - Adding type registration [C -> org.hibernate.type.CharArrayType@4a3329b9
+21:04:45,738 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@13e3c1c7
+21:04:45,739 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@13e3c1c7
+21:04:45,740 DEBUG BasicTypeRegistry:145 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@13e3c1c7
+21:04:45,743 DEBUG BasicTypeRegistry:145 - Adding type registration text -> org.hibernate.type.TextType@5b40ceb
+21:04:45,745 DEBUG BasicTypeRegistry:145 - Adding type registration ntext -> org.hibernate.type.NTextType@36546a22
+21:04:45,764 DEBUG BasicTypeRegistry:145 - Adding type registration blob -> org.hibernate.type.BlobType@56c9bbd8
+21:04:45,765 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@56c9bbd8
+21:04:45,766 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@f79a760
+21:04:45,778 DEBUG BasicTypeRegistry:145 - Adding type registration clob -> org.hibernate.type.ClobType@3a62c01e
+21:04:45,779 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3a62c01e
+21:04:45,786 DEBUG BasicTypeRegistry:145 - Adding type registration nclob -> org.hibernate.type.NClobType@3829ac1
+21:04:45,787 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3829ac1
+21:04:45,789 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@15eebbff
+21:04:45,791 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@2453f95d
+21:04:45,799 DEBUG BasicTypeRegistry:145 - Adding type registration serializable -> org.hibernate.type.SerializableType@4f071df8
+21:04:45,806 DEBUG BasicTypeRegistry:145 - Adding type registration object -> org.hibernate.type.ObjectType@275fe372
+21:04:45,806 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@275fe372
+21:04:45,817 DEBUG BasicTypeRegistry:145 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@26a4842b
+21:04:45,827 DEBUG BasicTypeRegistry:145 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7e38a7fe
+21:04:45,828 DEBUG BasicTypeRegistry:145 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@366ef90e
+21:04:45,829 DEBUG BasicTypeRegistry:145 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@33e01298
+21:04:45,829 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@31e75d13
+21:04:45,830 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@a5b0b86
+21:04:45,830 DEBUG BasicTypeRegistry:145 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4b3c354a
+21:04:45,837 DEBUG BasicTypeRegistry:145 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@78fb9a67
+21:04:47,555 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : Oracle
+    version : Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+      major : 12
+      minor : 1
+21:04:47,555 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : Oracle JDBC driver
+    version : 12.1.0.2.0
+      major : 12
+      minor : 1
+21:04:47,556 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.1
+21:04:47,594  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+21:04:48,194 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.MaterializedBlobType@f79a760
+21:04:48,195  INFO BasicTypeRegistry:148 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@75ed9710
+21:04:48,195 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.MaterializedBlobType@f79a760
+21:04:48,195  INFO BasicTypeRegistry:148 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@75ed9710
+21:04:48,197 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrappedMaterializedBlobType@4cee7fa0
+21:04:48,198  INFO BasicTypeRegistry:148 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@19fb8826
+21:04:48,198 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrappedMaterializedBlobType@4cee7fa0
+21:04:48,198  INFO BasicTypeRegistry:148 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@19fb8826
+21:04:48,274 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+21:04:48,276 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+21:04:48,278 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+21:04:48,278 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+21:04:48,280 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+21:04:48,284 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+21:04:48,286 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+21:04:48,289 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+21:04:48,292 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+21:04:48,294 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+21:04:48,295 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+21:04:48,297 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+21:04:48,299 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+21:04:48,302 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+21:04:48,452 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+21:04:48,557 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.MobileGoods -> tb_mobileGoods8
+21:04:48,572 DEBUG ModelBinder:2501 - Mapped property: id -> [mobileGoodsId]
+21:04:48,576 DEBUG PrimaryKey:35 - Forcing column [mobilegoodsid] to be non-null as it is part of the primary key for table [tb_mobilegoods8]
+21:04:48,579 DEBUG ModelBinder:1782 - Mapping entity secondary-table: qin.mobilegoods.domain.MobileGoods -> mobileGoods_goodsType
+21:04:48,581 DEBUG PrimaryKey:35 - Forcing column [col_mobilegoodstype] to be non-null as it is part of the primary key for table [mobilegoods_goodstype]
+21:04:48,602 DEBUG ModelBinder:2501 - Mapped property: goods_number -> [mobile_goodsNumber]
+21:04:48,603 DEBUG ModelBinder:2501 - Mapped property: goods_name -> [mobile_goodsName]
+21:04:48,606 DEBUG ModelBinder:2501 - Mapped property: goods_price -> [mobile_goodsPrice]
+21:04:48,607 DEBUG ModelBinder:2501 - Mapped property: goods_description -> [mobile_goodsDescription]
+21:04:48,608 DEBUG ModelBinder:2501 - Mapped property: mobile_os -> [mobile_os_]
+21:04:48,608 DEBUG ModelBinder:2501 - Mapped property: mobile_memory -> [mobile_memory_]
+21:04:48,609 DEBUG ModelBinder:2501 - Mapped property: mobile_frontCamera -> [mobile_frontCamera_]
+21:04:48,609 DEBUG ModelBinder:2501 - Mapped property: mobile_news -> [mobile_news_]
+21:04:48,610 DEBUG ModelBinder:2501 - Mapped property: mobile_backCamera -> [mobile_backCamera_]
+21:04:48,610 DEBUG ModelBinder:2501 - Mapped property: mobile_battery -> [mobile_battery_]
+21:04:48,611 DEBUG ModelBinder:2501 - Mapped property: mobile_rom -> [mobile_rom_]
+21:04:48,612 DEBUG ModelBinder:2501 - Mapped property: mobile_color -> [mobile_color_]
+21:04:48,626 DEBUG ModelBinder:2501 - Mapped property: imagesMap -> []
+21:04:48,632 DEBUG ModelBinder:2501 - Mapped property: mobileGoodsType -> [col_mobileGoodsTypeMany2One]
+21:04:48,642 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.GoodsType
+21:04:48,685 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:48,699 DEBUG EntityBinder:414 - Import with entity name GoodsType
+21:04:48,704 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.GoodsType on table tb_goodsType8
+21:04:48,788 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=gook_pk, insertable=true, updatable=true, unique=false}
+21:04:48,798 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+21:04:48,802 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:id]
+21:04:48,847 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+21:04:48,920 DEBUG PropertyBinder:265 - Building property id
+21:04:48,930 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:04:48,932 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=childrenSet, insertable=true, updatable=true, unique=false}
+21:04:48,935 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=null, insertable=true, updatable=true, unique=false}
+21:04:49,001 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=element, insertable=true, updatable=true, unique=false}
+21:04:49,002 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=childrenSet_KEY, insertable=true, updatable=true, unique=false}
+21:04:49,004 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='childrenSet_KEY', referencedColumn='null', mappedBy='null'}
+21:04:49,007 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_childrenSet', referencedColumn='', mappedBy=''}
+21:04:49,007 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:04:49,008 DEBUG CollectionBinder:388 - Collection role: qin.mobilegoods.domain.GoodsType.childrenSet
+21:04:49,012 DEBUG PropertyBinder:265 - Building property childrenSet
+21:04:49,018 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=goods_typeDescription, insertable=true, updatable=true, unique=false}
+21:04:49,019 DEBUG PropertyBinder:174 - MetadataSourceProcessor property goods_typeDescription with lazy=false
+21:04:49,019 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:goods_typeDescription]
+21:04:49,019 DEBUG SimpleValueBinder:411 - building SimpleValue for goods_typeDescription
+21:04:49,021 DEBUG PropertyBinder:265 - Building property goods_typeDescription
+21:04:49,024 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=goods_typeName, insertable=true, updatable=true, unique=true}
+21:04:49,024 DEBUG PropertyBinder:174 - MetadataSourceProcessor property goods_typeName with lazy=false
+21:04:49,025 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:goods_typeName]
+21:04:49,025 DEBUG SimpleValueBinder:411 - building SimpleValue for goods_typeName
+21:04:49,026 DEBUG PropertyBinder:265 - Building property goods_typeName
+21:04:49,028 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:04:49,030 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=mobileGoodsSet, insertable=true, updatable=true, unique=false}
+21:04:49,032 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=null, insertable=true, updatable=true, unique=false}
+21:04:49,033 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=element, insertable=true, updatable=true, unique=false}
+21:04:49,033 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=mobileGoodsSet_KEY, insertable=true, updatable=true, unique=false}
+21:04:49,034 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='mobileGoodsSet_KEY', referencedColumn='null', mappedBy='null'}
+21:04:49,034 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_mobileSet', referencedColumn='', mappedBy=''}
+21:04:49,035 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:04:49,035 DEBUG CollectionBinder:388 - Collection role: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+21:04:49,035 DEBUG PropertyBinder:265 - Building property mobileGoodsSet
+21:04:49,036 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_parentId', referencedColumn='', mappedBy=''}
+21:04:49,037 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=parentGoodsType, insertable=true, updatable=true, unique=false}
+21:04:49,042 DEBUG PropertyBinder:265 - Building property parentGoodsType
+21:04:49,047 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.CustomersEntity
+21:04:49,051 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:49,052 DEBUG EntityBinder:414 - Import with entity name CustomersEntity
+21:04:49,052 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=C##ORACLE12}, physicalName=Name{catalog=null, schema=C##ORACLE12}]
+21:04:49,052 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.CustomersEntity on table CUSTOMERS
+21:04:49,057 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.CUSTOMERS), mappingColumn=CUSTOMER_ID, insertable=true, updatable=true, unique=false}
+21:04:49,058 DEBUG PropertyBinder:174 - MetadataSourceProcessor property customerId with lazy=false
+21:04:49,059 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.CustomersEntity:customerId]
+21:04:49,059 DEBUG SimpleValueBinder:411 - building SimpleValue for customerId
+21:04:49,059 DEBUG PropertyBinder:265 - Building property customerId
+21:04:49,060 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.CUSTOMERS), mappingColumn=DOB, insertable=true, updatable=true, unique=false}
+21:04:49,060 DEBUG PropertyBinder:174 - MetadataSourceProcessor property dob with lazy=false
+21:04:49,061 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.CustomersEntity:dob]
+21:04:49,061 DEBUG SimpleValueBinder:411 - building SimpleValue for dob
+21:04:49,062 DEBUG PropertyBinder:265 - Building property dob
+21:04:49,062 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.CUSTOMERS), mappingColumn=FIRST_NAME, insertable=true, updatable=true, unique=false}
+21:04:49,063 DEBUG PropertyBinder:174 - MetadataSourceProcessor property firstName with lazy=false
+21:04:49,063 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.CustomersEntity:firstName]
+21:04:49,063 DEBUG SimpleValueBinder:411 - building SimpleValue for firstName
+21:04:49,064 DEBUG PropertyBinder:265 - Building property firstName
+21:04:49,064 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.CUSTOMERS), mappingColumn=LAST_NAME, insertable=true, updatable=true, unique=false}
+21:04:49,065 DEBUG PropertyBinder:174 - MetadataSourceProcessor property lastName with lazy=false
+21:04:49,065 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.CustomersEntity:lastName]
+21:04:49,066 DEBUG SimpleValueBinder:411 - building SimpleValue for lastName
+21:04:49,068 DEBUG PropertyBinder:265 - Building property lastName
+21:04:49,068 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.CUSTOMERS), mappingColumn=PHONE, insertable=true, updatable=true, unique=false}
+21:04:49,069 DEBUG PropertyBinder:174 - MetadataSourceProcessor property phone with lazy=false
+21:04:49,069 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.CustomersEntity:phone]
+21:04:49,070 DEBUG SimpleValueBinder:411 - building SimpleValue for phone
+21:04:49,070 DEBUG PropertyBinder:265 - Building property phone
+21:04:49,071 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.EmployeesEntity
+21:04:49,071 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:49,072 DEBUG EntityBinder:414 - Import with entity name EmployeesEntity
+21:04:49,072 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.EmployeesEntity on table EMPLOYEES
+21:04:49,074 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.EMPLOYEES), mappingColumn=EMPLOYEE_ID, insertable=true, updatable=true, unique=false}
+21:04:49,075 DEBUG PropertyBinder:174 - MetadataSourceProcessor property employeeId with lazy=false
+21:04:49,075 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.EmployeesEntity:employeeId]
+21:04:49,076 DEBUG SimpleValueBinder:411 - building SimpleValue for employeeId
+21:04:49,076 DEBUG PropertyBinder:265 - Building property employeeId
+21:04:49,076 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.EMPLOYEES), mappingColumn=FIRST_NAME, insertable=true, updatable=true, unique=false}
+21:04:49,077 DEBUG PropertyBinder:174 - MetadataSourceProcessor property firstName with lazy=false
+21:04:49,077 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.EmployeesEntity:firstName]
+21:04:49,078 DEBUG SimpleValueBinder:411 - building SimpleValue for firstName
+21:04:49,078 DEBUG PropertyBinder:265 - Building property firstName
+21:04:49,079 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.EMPLOYEES), mappingColumn=LAST_NAME, insertable=true, updatable=true, unique=false}
+21:04:49,079 DEBUG PropertyBinder:174 - MetadataSourceProcessor property lastName with lazy=false
+21:04:49,079 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.EmployeesEntity:lastName]
+21:04:49,080 DEBUG SimpleValueBinder:411 - building SimpleValue for lastName
+21:04:49,080 DEBUG PropertyBinder:265 - Building property lastName
+21:04:49,083 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.EMPLOYEES), mappingColumn=MANAGER_ID, insertable=true, updatable=true, unique=false}
+21:04:49,083 DEBUG PropertyBinder:174 - MetadataSourceProcessor property managerId with lazy=false
+21:04:49,084 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.EmployeesEntity:managerId]
+21:04:49,084 DEBUG SimpleValueBinder:411 - building SimpleValue for managerId
+21:04:49,084 DEBUG PropertyBinder:265 - Building property managerId
+21:04:49,085 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.EMPLOYEES), mappingColumn=SALARY, insertable=true, updatable=true, unique=false}
+21:04:49,085 DEBUG PropertyBinder:174 - MetadataSourceProcessor property salary with lazy=false
+21:04:49,086 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.EmployeesEntity:salary]
+21:04:49,087 DEBUG SimpleValueBinder:411 - building SimpleValue for salary
+21:04:49,087 DEBUG PropertyBinder:265 - Building property salary
+21:04:49,088 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.EMPLOYEES), mappingColumn=TITLE, insertable=true, updatable=true, unique=false}
+21:04:49,088 DEBUG PropertyBinder:174 - MetadataSourceProcessor property title with lazy=false
+21:04:49,088 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.EmployeesEntity:title]
+21:04:49,089 DEBUG SimpleValueBinder:411 - building SimpleValue for title
+21:04:49,089 DEBUG PropertyBinder:265 - Building property title
+21:04:49,090 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.ProductsEntity
+21:04:49,090 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:49,091 DEBUG EntityBinder:414 - Import with entity name ProductsEntity
+21:04:49,092 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.ProductsEntity on table PRODUCTS
+21:04:49,095 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PRODUCTS), mappingColumn=PRODUCT_ID, insertable=true, updatable=true, unique=false}
+21:04:49,096 DEBUG PropertyBinder:174 - MetadataSourceProcessor property productId with lazy=false
+21:04:49,096 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.ProductsEntity:productId]
+21:04:49,097 DEBUG SimpleValueBinder:411 - building SimpleValue for productId
+21:04:49,097 DEBUG PropertyBinder:265 - Building property productId
+21:04:49,098 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PRODUCTS), mappingColumn=DESCRIPTION, insertable=true, updatable=true, unique=false}
+21:04:49,098 DEBUG PropertyBinder:174 - MetadataSourceProcessor property description with lazy=false
+21:04:49,098 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.ProductsEntity:description]
+21:04:49,099 DEBUG SimpleValueBinder:411 - building SimpleValue for description
+21:04:49,099 DEBUG PropertyBinder:265 - Building property description
+21:04:49,099 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PRODUCTS), mappingColumn=NAME, insertable=true, updatable=true, unique=false}
+21:04:49,100 DEBUG PropertyBinder:174 - MetadataSourceProcessor property name with lazy=false
+21:04:49,100 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.ProductsEntity:name]
+21:04:49,101 DEBUG SimpleValueBinder:411 - building SimpleValue for name
+21:04:49,101 DEBUG PropertyBinder:265 - Building property name
+21:04:49,103 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PRODUCTS), mappingColumn=PRICE, insertable=true, updatable=true, unique=false}
+21:04:49,103 DEBUG PropertyBinder:174 - MetadataSourceProcessor property price with lazy=false
+21:04:49,103 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.ProductsEntity:price]
+21:04:49,104 DEBUG SimpleValueBinder:411 - building SimpleValue for price
+21:04:49,104 DEBUG PropertyBinder:265 - Building property price
+21:04:49,105 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.ProductTypesEntity
+21:04:49,106 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:49,107 DEBUG EntityBinder:414 - Import with entity name ProductTypesEntity
+21:04:49,107 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.ProductTypesEntity on table PRODUCT_TYPES
+21:04:49,108 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PRODUCT_TYPES), mappingColumn=PRODUCT_TYPE_ID, insertable=true, updatable=true, unique=false}
+21:04:49,109 DEBUG PropertyBinder:174 - MetadataSourceProcessor property productTypeId with lazy=false
+21:04:49,110 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.ProductTypesEntity:productTypeId]
+21:04:49,110 DEBUG SimpleValueBinder:411 - building SimpleValue for productTypeId
+21:04:49,111 DEBUG PropertyBinder:265 - Building property productTypeId
+21:04:49,111 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PRODUCT_TYPES), mappingColumn=NAME, insertable=true, updatable=true, unique=false}
+21:04:49,112 DEBUG PropertyBinder:174 - MetadataSourceProcessor property name with lazy=false
+21:04:49,112 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.ProductTypesEntity:name]
+21:04:49,112 DEBUG SimpleValueBinder:411 - building SimpleValue for name
+21:04:49,113 DEBUG PropertyBinder:265 - Building property name
+21:04:49,114 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.PurchasesEntity
+21:04:49,114 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:49,115 DEBUG EntityBinder:414 - Import with entity name PurchasesEntity
+21:04:49,115 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.PurchasesEntity on table PURCHASES
+21:04:49,130 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=PRODUCT_ID, insertable=true, updatable=true, unique=false}
+21:04:49,131 DEBUG PropertyBinder:174 - MetadataSourceProcessor property productId with lazy=false
+21:04:49,132 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.PurchasesEntity.id:productId]
+21:04:49,132 DEBUG SimpleValueBinder:411 - building SimpleValue for productId
+21:04:49,133 DEBUG PropertyBinder:265 - Building property productId
+21:04:49,134 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=CUSTOMER_ID, insertable=true, updatable=true, unique=false}
+21:04:49,135 DEBUG PropertyBinder:174 - MetadataSourceProcessor property customerId with lazy=false
+21:04:49,135 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.PurchasesEntity.id:customerId]
+21:04:49,136 DEBUG SimpleValueBinder:411 - building SimpleValue for customerId
+21:04:49,137 DEBUG PropertyBinder:265 - Building property customerId
+21:04:49,141 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=PRODUCT_ID, insertable=true, updatable=true, unique=false}
+21:04:49,142 DEBUG PropertyBinder:174 - MetadataSourceProcessor property productId with lazy=false
+21:04:49,145 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.PurchasesEntity._identifierMapper:productId]
+21:04:49,145 DEBUG SimpleValueBinder:411 - building SimpleValue for productId
+21:04:49,146 DEBUG PropertyBinder:265 - Building property productId
+21:04:49,148 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=CUSTOMER_ID, insertable=true, updatable=true, unique=false}
+21:04:49,149 DEBUG PropertyBinder:174 - MetadataSourceProcessor property customerId with lazy=false
+21:04:49,150 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.PurchasesEntity._identifierMapper:customerId]
+21:04:49,151 DEBUG SimpleValueBinder:411 - building SimpleValue for customerId
+21:04:49,151 DEBUG PropertyBinder:265 - Building property customerId
+21:04:49,152 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='CUSTOMER_ID', referencedColumn='CUSTOMER_ID', mappedBy=''}
+21:04:49,170 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=customersByCustomerId, insertable=true, updatable=true, unique=false}
+21:04:49,172 DEBUG PropertyBinder:265 - Building property customersByCustomerId
+21:04:49,173 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='PRODUCT_ID', referencedColumn='PRODUCT_ID', mappedBy=''}
+21:04:49,173 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=productsByProductId, insertable=true, updatable=true, unique=false}
+21:04:49,183 DEBUG PropertyBinder:265 - Building property productsByProductId
+21:04:49,184 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.PURCHASES), mappingColumn=QUANTITY, insertable=true, updatable=true, unique=false}
+21:04:49,185 DEBUG PropertyBinder:174 - MetadataSourceProcessor property quantity with lazy=false
+21:04:49,185 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.PurchasesEntity:quantity]
+21:04:49,186 DEBUG SimpleValueBinder:411 - building SimpleValue for quantity
+21:04:49,186 DEBUG PropertyBinder:265 - Building property quantity
+21:04:49,187 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.SalaryGradesEntity
+21:04:49,187 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:04:49,188 DEBUG EntityBinder:414 - Import with entity name SalaryGradesEntity
+21:04:49,188 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.SalaryGradesEntity on table SALARY_GRADES
+21:04:49,190 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.SALARY_GRADES), mappingColumn=SALARY_GRADE_ID, insertable=true, updatable=true, unique=false}
+21:04:49,191 DEBUG PropertyBinder:174 - MetadataSourceProcessor property salaryGradeId with lazy=false
+21:04:49,191 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.SalaryGradesEntity:salaryGradeId]
+21:04:49,192 DEBUG SimpleValueBinder:411 - building SimpleValue for salaryGradeId
+21:04:49,192 DEBUG PropertyBinder:265 - Building property salaryGradeId
+21:04:49,193 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.SALARY_GRADES), mappingColumn=HIGH_SALARY, insertable=true, updatable=true, unique=false}
+21:04:49,193 DEBUG PropertyBinder:174 - MetadataSourceProcessor property highSalary with lazy=false
+21:04:49,193 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.SalaryGradesEntity:highSalary]
+21:04:49,194 DEBUG SimpleValueBinder:411 - building SimpleValue for highSalary
+21:04:49,194 DEBUG PropertyBinder:265 - Building property highSalary
+21:04:49,195 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(C##ORACLE12.SALARY_GRADES), mappingColumn=LOW_SALARY, insertable=true, updatable=true, unique=false}
+21:04:49,195 DEBUG PropertyBinder:174 - MetadataSourceProcessor property lowSalary with lazy=false
+21:04:49,196 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.SalaryGradesEntity:lowSalary]
+21:04:49,196 DEBUG SimpleValueBinder:411 - building SimpleValue for lowSalary
+21:04:49,198 DEBUG PropertyBinder:265 - Building property lowSalary
+21:04:49,200 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+21:04:49,201 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for goods_typeDescription
+21:04:49,201 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for goods_typeName
+21:04:49,219 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for customerId
+21:04:49,220 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for dob
+21:04:49,240 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for firstName
+21:04:49,241 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for lastName
+21:04:49,242 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for phone
+21:04:49,242 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for employeeId
+21:04:49,242 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for firstName
+21:04:49,243 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for lastName
+21:04:49,243 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for managerId
+21:04:49,243 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for salary
+21:04:49,243 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for title
+21:04:49,244 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for productId
+21:04:49,244 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for description
+21:04:49,244 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for name
+21:04:49,245 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for price
+21:04:49,245 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for productTypeId
+21:04:49,245 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for name
+21:04:49,246 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for productId
+21:04:49,246 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for customerId
+21:04:49,246 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for productId
+21:04:49,248 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for customerId
+21:04:49,248 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for quantity
+21:04:49,249 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for salaryGradeId
+21:04:49,249 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for highSalary
+21:04:49,249 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for lowSalary
+21:04:49,254 DEBUG PrimaryKey:35 - Forcing column [gook_pk] to be non-null as it is part of the primary key for table [tb_goodstype8]
+21:04:49,254 DEBUG PrimaryKey:35 - Forcing column [customer_id] to be non-null as it is part of the primary key for table [customers]
+21:04:49,255 DEBUG PrimaryKey:35 - Forcing column [employee_id] to be non-null as it is part of the primary key for table [employees]
+21:04:49,255 DEBUG PrimaryKey:35 - Forcing column [product_id] to be non-null as it is part of the primary key for table [products]
+21:04:49,255 DEBUG PrimaryKey:35 - Forcing column [product_type_id] to be non-null as it is part of the primary key for table [product_types]
+21:04:49,257 DEBUG PrimaryKey:35 - Forcing column [product_id] to be non-null as it is part of the primary key for table [purchases]
+21:04:49,258 DEBUG PrimaryKey:35 - Forcing column [customer_id] to be non-null as it is part of the primary key for table [purchases]
+21:04:49,262 DEBUG PrimaryKey:35 - Forcing column [salary_grade_id] to be non-null as it is part of the primary key for table [salary_grades]
+21:04:49,264 DEBUG CollectionSecondPass:51 - Second pass for collection: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+21:04:49,265 DEBUG CollectionBinder:1207 - Binding a OneToMany: qin.mobilegoods.domain.GoodsType.mobileGoodsSet through an association table
+21:04:49,276 DEBUG PrimaryKey:35 - Forcing column [goodstype_mobileset] to be non-null as it is part of the primary key for table [mobilegoodsset_goodstype]
+21:04:49,277 DEBUG PrimaryKey:35 - Forcing column [mobilegoodsset_mobilegoodsid] to be non-null as it is part of the primary key for table [mobilegoodsset_goodstype]
+21:04:49,277 DEBUG CollectionSecondPass:68 - Mapped collection key: goodsType_mobileSet, element: mobileGoodsSet_mobileGoodsId
+21:04:49,277 DEBUG CollectionSecondPass:51 - Second pass for collection: qin.mobilegoods.domain.GoodsType.childrenSet
+21:04:49,278 DEBUG CollectionBinder:1207 - Binding a OneToMany: qin.mobilegoods.domain.GoodsType.childrenSet through an association table
+21:04:49,279 DEBUG PrimaryKey:35 - Forcing column [goodstype_childrenset] to be non-null as it is part of the primary key for table [goodstype_childrenset]
+21:04:49,279 DEBUG PrimaryKey:35 - Forcing column [childrenset_gook_pk] to be non-null as it is part of the primary key for table [goodstype_childrenset]
+21:04:49,280 DEBUG CollectionSecondPass:68 - Mapped collection key: goodsType_childrenSet, element: childrenSet_gook_pk
+21:04:49,282 DEBUG ModelBinder:3225 - Mapping collection: qin.mobilegoods.domain.MobileGoods.imagesMap -> mobileGoods_imagesMap
+21:04:49,285 DEBUG PrimaryKey:35 - Forcing column [col_images_mobile] to be non-null as it is part of the primary key for table [mobilegoods_imagesmap]
+21:04:49,302 DEBUG PrimaryKey:35 - Forcing column [col_images_index_mobile] to be non-null as it is part of the primary key for table [mobilegoods_imagesmap]
+21:04:49,303 DEBUG ModelBinder:3100 - Mapped collection : qin.mobilegoods.domain.MobileGoods.imagesMap
+21:04:49,303 DEBUG ModelBinder:3101 -    + table -> tb_mobileGoods8
+21:04:49,304 DEBUG ModelBinder:3102 -    + key -> col_images_mobile
+21:04:49,304 DEBUG ModelBinder:3104 -    + index -> col_images_index_mobile
+21:04:49,304 DEBUG ModelBinder:3110 -    + element -> element_images_mobile
+21:04:49,305 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.CustomersEntity
+21:04:49,309 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.ProductsEntity
+21:04:49,310 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,311 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,311 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:04:49,312 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,312 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:04:49,312 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:04:49,313 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,314 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,317 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.CustomersEntity
+21:04:49,318 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.ProductsEntity
+21:04:49,318 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,318 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,319 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:04:49,319 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,319 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:04:49,320 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:04:49,320 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,320 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:04:49,324 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [qin.mobilegoods.domain.PurchasesEntity] is safe
+21:04:49,325 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : qin.mobilegoods.domain.PurchasesEntity
+21:04:49,445  WARN ClassPathXmlApplicationContext:550 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mobileGoodsDAOImpl8': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: qin.mobilegoods.domain.PurchasesEntity column: CUSTOMER_ID (should be mapped with insert="false" update="false")
+21:06:50,708  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@649d209a: startup date [Tue Jan 24 21:06:50 CST 2017]; root of context hierarchy
+21:06:50,939  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+21:06:52,532  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [oracle.jdbc.properties]
+21:06:52,545  INFO AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:06:52,807  INFO JavaEE8DAOSupport:146 - >>>>正在初始化手机商品数据访问层实现类<<<<==========
+
+21:06:53,285  INFO DriverManagerDataSource:133 - Loaded JDBC driver: oracle.jdbc.OracleDriver
+21:06:53,424 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+21:06:53,429 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+21:06:53,454 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+21:06:53,802  INFO Version:45 - HHH000412: Hibernate Core {5.2.5.Final}
+21:06:53,808  INFO Environment:213 - HHH000206: hibernate.properties not found
+21:06:53,865 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+21:06:53,866 DEBUG LocalXmlResourceResolver:85 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+21:06:53,875 DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+21:06:54,429 DEBUG Configuration:724 - Building session factory using internal StandardServiceRegistryBuilder
+21:06:54,450 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+21:06:54,455 DEBUG Configuration:652 - Building session factory using provided StandardServiceRegistry
+21:06:54,512 DEBUG RegionFactoryInitiator:75 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+21:06:54,537  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+21:06:54,565 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+21:06:54,572  WARN deprecation:75 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+21:06:54,573 DEBUG LocalXmlResourceResolver:79 - Recognized legacy hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:54,614 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/mobile.goods.hbm.xml,type=RESOURCE)
+21:06:57,520 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+21:06:57,521 DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:57,533 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/SalaryGradesEntity.hbm.xml,type=RESOURCE)
+21:06:57,542 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+21:06:57,542 DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:57,552 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/ProductsEntity.hbm.xml,type=RESOURCE)
+21:06:57,563 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+21:06:57,564 DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:57,572 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/ProductTypesEntity.hbm.xml,type=RESOURCE)
+21:06:57,619 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+21:06:57,619 DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:57,628 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/CustomersEntity.hbm.xml,type=RESOURCE)
+21:06:57,637 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+21:06:57,638 DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:57,654 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/PurchasesEntity.hbm.xml,type=RESOURCE)
+21:06:57,665 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Mapping DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+21:06:57,665 DEBUG LocalXmlResourceResolver:59 - Recognized hibernate-mapping identifier; attempting to resolve on classpath under org/hibernate/
+21:06:57,673 DEBUG MappingBinder:58 - Performing JAXB binding of hbm.xml document : Origin(name=qin/mobilegoods/domain/xml/EmployeesEntity.hbm.xml,type=RESOURCE)
+21:06:57,721 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@66b7550d
+21:06:57,723 DEBUG BasicTypeRegistry:145 - Adding type registration boolean -> org.hibernate.type.BooleanType@66b7550d
+21:06:57,726 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@66b7550d
+21:06:57,728 DEBUG BasicTypeRegistry:145 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4212a0c8
+21:06:57,736 DEBUG BasicTypeRegistry:145 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@655f7ea
+21:06:57,741 DEBUG BasicTypeRegistry:145 - Adding type registration yes_no -> org.hibernate.type.YesNoType@17a87e37
+21:06:57,747 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@75b25825
+21:06:57,754 DEBUG BasicTypeRegistry:145 - Adding type registration byte -> org.hibernate.type.ByteType@75b25825
+21:06:57,754 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@75b25825
+21:06:57,758 DEBUG BasicTypeRegistry:145 - Adding type registration character -> org.hibernate.type.CharacterType@57459491
+21:06:57,759 DEBUG BasicTypeRegistry:145 - Adding type registration char -> org.hibernate.type.CharacterType@57459491
+21:06:57,759 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@57459491
+21:06:57,763 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@62452cc9
+21:06:57,764 DEBUG BasicTypeRegistry:145 - Adding type registration short -> org.hibernate.type.ShortType@62452cc9
+21:06:57,764 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@62452cc9
+21:06:57,767 DEBUG BasicTypeRegistry:145 - Adding type registration integer -> org.hibernate.type.IntegerType@7516e4e5
+21:06:57,768 DEBUG BasicTypeRegistry:145 - Adding type registration int -> org.hibernate.type.IntegerType@7516e4e5
+21:06:57,769 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7516e4e5
+21:06:57,772 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@6035b93b
+21:06:57,773 DEBUG BasicTypeRegistry:145 - Adding type registration long -> org.hibernate.type.LongType@6035b93b
+21:06:57,788 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@6035b93b
+21:06:57,792 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@665df3c6
+21:06:57,793 DEBUG BasicTypeRegistry:145 - Adding type registration float -> org.hibernate.type.FloatType@665df3c6
+21:06:57,794 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@665df3c6
+21:06:57,796 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@1bb564e2
+21:06:57,797 DEBUG BasicTypeRegistry:145 - Adding type registration double -> org.hibernate.type.DoubleType@1bb564e2
+21:06:57,797 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1bb564e2
+21:06:57,801 DEBUG BasicTypeRegistry:145 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2a8d39c4
+21:06:57,802 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2a8d39c4
+21:06:57,807 DEBUG BasicTypeRegistry:145 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7fc6de5b
+21:06:57,808 DEBUG BasicTypeRegistry:145 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7fc6de5b
+21:06:57,811 DEBUG BasicTypeRegistry:145 - Adding type registration string -> org.hibernate.type.StringType@5dd91bca
+21:06:57,812 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.String -> org.hibernate.type.StringType@5dd91bca
+21:06:57,864 DEBUG BasicTypeRegistry:145 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6eeade6c
+21:06:57,866 DEBUG BasicTypeRegistry:145 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7756c3cd
+21:06:57,871 DEBUG BasicTypeRegistry:145 - Adding type registration url -> org.hibernate.type.UrlType@6cfcd46d
+21:06:57,871 DEBUG BasicTypeRegistry:145 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@6cfcd46d
+21:06:57,875 DEBUG BasicTypeRegistry:145 - Adding type registration Duration -> org.hibernate.type.DurationType@26425897
+21:06:57,875 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@26425897
+21:06:57,917 DEBUG BasicTypeRegistry:145 - Adding type registration Instant -> org.hibernate.type.InstantType@45efc20d
+21:06:57,918 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@45efc20d
+21:06:57,921 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@2a3c96e3
+21:06:57,923 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@2a3c96e3
+21:06:57,927 DEBUG BasicTypeRegistry:145 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@79145d5a
+21:06:57,927 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@79145d5a
+21:06:57,933 DEBUG BasicTypeRegistry:145 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@129b4fe2
+21:06:57,934 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@129b4fe2
+21:06:57,938 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@24b6b8f6
+21:06:57,939 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@24b6b8f6
+21:06:57,943 DEBUG BasicTypeRegistry:145 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@45c8d09f
+21:06:57,944 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@45c8d09f
+21:06:57,960 DEBUG BasicTypeRegistry:145 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@ed3068a
+21:06:57,961 DEBUG BasicTypeRegistry:145 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@ed3068a
+21:06:57,970 DEBUG BasicTypeRegistry:145 - Adding type registration date -> org.hibernate.type.DateType@2e11485
+21:06:57,971 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@2e11485
+21:06:57,975 DEBUG BasicTypeRegistry:145 - Adding type registration time -> org.hibernate.type.TimeType@27305e6
+21:06:57,976 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@27305e6
+21:06:57,979 DEBUG BasicTypeRegistry:145 - Adding type registration timestamp -> org.hibernate.type.TimestampType@7446d8d5
+21:06:57,980 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7446d8d5
+21:06:57,980 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7446d8d5
+21:06:57,984 DEBUG BasicTypeRegistry:145 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@75f5fd58
+21:06:57,987 DEBUG BasicTypeRegistry:145 - Adding type registration calendar -> org.hibernate.type.CalendarType@47db5fa5
+21:06:57,988 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@47db5fa5
+21:06:57,988 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@47db5fa5
+21:06:57,990 DEBUG BasicTypeRegistry:145 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4678a2eb
+21:06:57,993 DEBUG BasicTypeRegistry:145 - Adding type registration locale -> org.hibernate.type.LocaleType@1fdfafd2
+21:06:57,994 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1fdfafd2
+21:06:57,997 DEBUG BasicTypeRegistry:145 - Adding type registration currency -> org.hibernate.type.CurrencyType@5c87bfe2
+21:06:57,997 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5c87bfe2
+21:06:58,001 DEBUG BasicTypeRegistry:145 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4cc6fa2a
+21:06:58,002 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4cc6fa2a
+21:06:58,005 DEBUG BasicTypeRegistry:145 - Adding type registration class -> org.hibernate.type.ClassType@590c73d3
+21:06:58,005 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@590c73d3
+21:06:58,009 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@192d74fb
+21:06:58,010 DEBUG BasicTypeRegistry:145 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@192d74fb
+21:06:58,011 DEBUG BasicTypeRegistry:145 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@27953a83
+21:06:58,015 DEBUG BasicTypeRegistry:145 - Adding type registration binary -> org.hibernate.type.BinaryType@666b83a4
+21:06:58,016 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.BinaryType@666b83a4
+21:06:58,016 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.BinaryType@666b83a4
+21:06:58,023 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2b95e48b
+21:06:58,024 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2b95e48b
+21:06:58,025 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2b95e48b
+21:06:58,033 DEBUG BasicTypeRegistry:145 - Adding type registration row_version -> org.hibernate.type.RowVersionType@41925502
+21:06:58,036 DEBUG BasicTypeRegistry:145 - Adding type registration image -> org.hibernate.type.ImageType@618c5d94
+21:06:58,039 DEBUG BasicTypeRegistry:145 - Adding type registration characters -> org.hibernate.type.CharArrayType@3b956878
+21:06:58,040 DEBUG BasicTypeRegistry:145 - Adding type registration char[] -> org.hibernate.type.CharArrayType@3b956878
+21:06:58,041 DEBUG BasicTypeRegistry:145 - Adding type registration [C -> org.hibernate.type.CharArrayType@3b956878
+21:06:58,047 DEBUG BasicTypeRegistry:145 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2c88b9fc
+21:06:58,049 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2c88b9fc
+21:06:58,050 DEBUG BasicTypeRegistry:145 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2c88b9fc
+21:06:58,052 DEBUG BasicTypeRegistry:145 - Adding type registration text -> org.hibernate.type.TextType@1dd0e7c4
+21:06:58,054 DEBUG BasicTypeRegistry:145 - Adding type registration ntext -> org.hibernate.type.NTextType@242aa8d9
+21:06:58,068 DEBUG BasicTypeRegistry:145 - Adding type registration blob -> org.hibernate.type.BlobType@30f5a68a
+21:06:58,071 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@30f5a68a
+21:06:58,073 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4e28bdd1
+21:06:58,083 DEBUG BasicTypeRegistry:145 - Adding type registration clob -> org.hibernate.type.ClobType@6bb75258
+21:06:58,083 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6bb75258
+21:06:58,099 DEBUG BasicTypeRegistry:145 - Adding type registration nclob -> org.hibernate.type.NClobType@4de41af9
+21:06:58,100 DEBUG BasicTypeRegistry:145 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4de41af9
+21:06:58,101 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@305f7627
+21:06:58,109 DEBUG BasicTypeRegistry:145 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@29e6eb25
+21:06:58,113 DEBUG BasicTypeRegistry:145 - Adding type registration serializable -> org.hibernate.type.SerializableType@7bc10d84
+21:06:58,122 DEBUG BasicTypeRegistry:145 - Adding type registration object -> org.hibernate.type.ObjectType@2f9a01c1
+21:06:58,123 DEBUG BasicTypeRegistry:145 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2f9a01c1
+21:06:58,124 DEBUG BasicTypeRegistry:145 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6b5894c8
+21:06:58,125 DEBUG BasicTypeRegistry:145 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1433046b
+21:06:58,125 DEBUG BasicTypeRegistry:145 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3f446bef
+21:06:58,126 DEBUG BasicTypeRegistry:145 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7829b776
+21:06:58,126 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5778826f
+21:06:58,126 DEBUG BasicTypeRegistry:145 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5b64c4b7
+21:06:58,127 DEBUG BasicTypeRegistry:145 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4763c727
+21:06:58,127 DEBUG BasicTypeRegistry:145 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@72445aba
+21:06:59,813 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : Oracle
+    version : Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+      major : 12
+      minor : 1
+21:06:59,814 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : Oracle JDBC driver
+    version : 12.1.0.2.0
+      major : 12
+      minor : 1
+21:06:59,821 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.1
+21:06:59,872  INFO Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+21:07:00,492 DEBUG BasicTypeRegistry:145 - Adding type registration byte[] -> org.hibernate.type.MaterializedBlobType@4e28bdd1
+21:07:00,492  INFO BasicTypeRegistry:148 - HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@666b83a4
+21:07:00,493 DEBUG BasicTypeRegistry:145 - Adding type registration [B -> org.hibernate.type.MaterializedBlobType@4e28bdd1
+21:07:00,493  INFO BasicTypeRegistry:148 - HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@666b83a4
+21:07:00,494 DEBUG BasicTypeRegistry:145 - Adding type registration Byte[] -> org.hibernate.type.WrappedMaterializedBlobType@6dc1484
+21:07:00,495  INFO BasicTypeRegistry:148 - HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@2b95e48b
+21:07:00,495 DEBUG BasicTypeRegistry:145 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrappedMaterializedBlobType@6dc1484
+21:07:00,495  INFO BasicTypeRegistry:148 - HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@2b95e48b
+21:07:00,601 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+21:07:00,602 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+21:07:00,604 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+21:07:00,605 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+21:07:00,608 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+21:07:00,610 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+21:07:00,611 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+21:07:00,614 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+21:07:00,617 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+21:07:00,619 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+21:07:00,620 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+21:07:00,621 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+21:07:00,622 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+21:07:00,630 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+21:07:00,969 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+21:07:01,031 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.MobileGoods -> tb_mobileGoods8
+21:07:01,043 DEBUG ModelBinder:2501 - Mapped property: id -> [mobileGoodsId]
+21:07:01,046 DEBUG PrimaryKey:35 - Forcing column [mobilegoodsid] to be non-null as it is part of the primary key for table [tb_mobilegoods8]
+21:07:01,048 DEBUG ModelBinder:1782 - Mapping entity secondary-table: qin.mobilegoods.domain.MobileGoods -> mobileGoods_goodsType
+21:07:01,050 DEBUG PrimaryKey:35 - Forcing column [col_mobilegoodstype] to be non-null as it is part of the primary key for table [mobilegoods_goodstype]
+21:07:01,067 DEBUG ModelBinder:2501 - Mapped property: goods_number -> [mobile_goodsNumber]
+21:07:01,068 DEBUG ModelBinder:2501 - Mapped property: goods_name -> [mobile_goodsName]
+21:07:01,069 DEBUG ModelBinder:2501 - Mapped property: goods_price -> [mobile_goodsPrice]
+21:07:01,076 DEBUG ModelBinder:2501 - Mapped property: goods_description -> [mobile_goodsDescription]
+21:07:01,077 DEBUG ModelBinder:2501 - Mapped property: mobile_os -> [mobile_os_]
+21:07:01,077 DEBUG ModelBinder:2501 - Mapped property: mobile_memory -> [mobile_memory_]
+21:07:01,079 DEBUG ModelBinder:2501 - Mapped property: mobile_frontCamera -> [mobile_frontCamera_]
+21:07:01,080 DEBUG ModelBinder:2501 - Mapped property: mobile_news -> [mobile_news_]
+21:07:01,080 DEBUG ModelBinder:2501 - Mapped property: mobile_backCamera -> [mobile_backCamera_]
+21:07:01,081 DEBUG ModelBinder:2501 - Mapped property: mobile_battery -> [mobile_battery_]
+21:07:01,081 DEBUG ModelBinder:2501 - Mapped property: mobile_rom -> [mobile_rom_]
+21:07:01,082 DEBUG ModelBinder:2501 - Mapped property: mobile_color -> [mobile_color_]
+21:07:01,096 DEBUG ModelBinder:2501 - Mapped property: imagesMap -> []
+21:07:01,101 DEBUG ModelBinder:2501 - Mapped property: mobileGoodsType -> [col_mobileGoodsTypeMany2One]
+21:07:01,102 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=C##ORACLE12}, physicalName=Name{catalog=null, schema=C##ORACLE12}]
+21:07:01,102 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.SalaryGradesEntity -> SALARY_GRADES
+21:07:01,112 DEBUG ModelBinder:2501 - Mapped property: salaryGradeId -> [SALARY_GRADE_ID]
+21:07:01,113 DEBUG PrimaryKey:35 - Forcing column [salary_grade_id] to be non-null as it is part of the primary key for table [salary_grades]
+21:07:01,118 DEBUG ModelBinder:2501 - Mapped property: lowSalary -> [LOW_SALARY]
+21:07:01,119 DEBUG ModelBinder:2501 - Mapped property: highSalary -> [HIGH_SALARY]
+21:07:01,119 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.ProductsEntity -> PRODUCTS
+21:07:01,122 DEBUG ModelBinder:2501 - Mapped property: productId -> [PRODUCT_ID]
+21:07:01,122 DEBUG PrimaryKey:35 - Forcing column [product_id] to be non-null as it is part of the primary key for table [products]
+21:07:01,123 DEBUG ModelBinder:2501 - Mapped property: name -> [NAME]
+21:07:01,124 DEBUG ModelBinder:2501 - Mapped property: description -> [DESCRIPTION]
+21:07:01,125 DEBUG ModelBinder:2501 - Mapped property: price -> [PRICE]
+21:07:01,125 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.ProductTypesEntity -> PRODUCT_TYPES
+21:07:01,127 DEBUG ModelBinder:2501 - Mapped property: productTypeId -> [PRODUCT_TYPE_ID]
+21:07:01,128 DEBUG PrimaryKey:35 - Forcing column [product_type_id] to be non-null as it is part of the primary key for table [product_types]
+21:07:01,128 DEBUG ModelBinder:2501 - Mapped property: name -> [NAME]
+21:07:01,130 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.CustomersEntity -> CUSTOMERS
+21:07:01,132 DEBUG ModelBinder:2501 - Mapped property: customerId -> [CUSTOMER_ID]
+21:07:01,133 DEBUG PrimaryKey:35 - Forcing column [customer_id] to be non-null as it is part of the primary key for table [customers]
+21:07:01,133 DEBUG ModelBinder:2501 - Mapped property: firstName -> [FIRST_NAME]
+21:07:01,134 DEBUG ModelBinder:2501 - Mapped property: lastName -> [LAST_NAME]
+21:07:01,135 DEBUG ModelBinder:2501 - Mapped property: dob -> [DOB]
+21:07:01,135 DEBUG ModelBinder:2501 - Mapped property: phone -> [PHONE]
+21:07:01,136 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.PurchasesEntity -> PURCHASES
+21:07:01,138 DEBUG ModelBinder:2575 - Binding component [qin.mobilegoods.domain.PurchasesEntity.<id>]
+21:07:01,140 DEBUG ModelBinder:2577 - Binding component [qin.mobilegoods.domain.PurchasesEntity.<id>] to explicitly specified class
+21:07:01,142 DEBUG ModelBinder:2501 - Mapped property: productId -> [PRODUCT_ID]
+21:07:01,143 DEBUG ModelBinder:2501 - Mapped property: customerId -> [CUSTOMER_ID]
+21:07:01,145 DEBUG ModelBinder:2566 - Binding virtual component [qin.mobilegoods.domain.PurchasesEntity.<_identifierMapper>] to owner class [qin.mobilegoods.domain.PurchasesEntity]
+21:07:01,150 DEBUG ModelBinder:2501 - Mapped property: productId -> [PRODUCT_ID]
+21:07:01,151 DEBUG ModelBinder:2501 - Mapped property: customerId -> [CUSTOMER_ID]
+21:07:01,152 DEBUG PrimaryKey:35 - Forcing column [product_id] to be non-null as it is part of the primary key for table [purchases]
+21:07:01,153 DEBUG PrimaryKey:35 - Forcing column [customer_id] to be non-null as it is part of the primary key for table [purchases]
+21:07:01,155 DEBUG ModelBinder:2501 - Mapped property: quantity -> [QUANTITY]
+21:07:01,156 DEBUG ModelBinder:2501 - Mapped property: productsByProductId -> [PRODUCT_ID]
+21:07:01,156 DEBUG ModelBinder:2501 - Mapped property: customersByCustomerId -> [CUSTOMER_ID]
+21:07:01,157 DEBUG ModelBinder:230 - Mapping class: qin.mobilegoods.domain.EmployeesEntity -> EMPLOYEES
+21:07:01,159 DEBUG ModelBinder:2501 - Mapped property: employeeId -> [EMPLOYEE_ID]
+21:07:01,160 DEBUG PrimaryKey:35 - Forcing column [employee_id] to be non-null as it is part of the primary key for table [employees]
+21:07:01,160 DEBUG ModelBinder:2501 - Mapped property: managerId -> [MANAGER_ID]
+21:07:01,162 DEBUG ModelBinder:2501 - Mapped property: firstName -> [FIRST_NAME]
+21:07:01,163 DEBUG ModelBinder:2501 - Mapped property: lastName -> [LAST_NAME]
+21:07:01,165 DEBUG ModelBinder:2501 - Mapped property: title -> [TITLE]
+21:07:01,167 DEBUG ModelBinder:2501 - Mapped property: salary -> [SALARY]
+21:07:01,176 DEBUG AnnotationBinder:511 - Binding entity from annotated class: qin.mobilegoods.domain.GoodsType
+21:07:01,229 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+21:07:01,247 DEBUG EntityBinder:414 - Import with entity name GoodsType
+21:07:01,256 DEBUG EntityBinder:690 - Bind entity qin.mobilegoods.domain.GoodsType on table tb_goodsType8
+21:07:01,353 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=gook_pk, insertable=true, updatable=true, unique=false}
+21:07:01,363 DEBUG PropertyBinder:174 - MetadataSourceProcessor property id with lazy=false
+21:07:01,367 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:id]
+21:07:01,370 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+21:07:01,371 DEBUG PropertyBinder:265 - Building property id
+21:07:01,379 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:07:01,381 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=childrenSet, insertable=true, updatable=true, unique=false}
+21:07:01,383 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=null, insertable=true, updatable=true, unique=false}
+21:07:01,403 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=element, insertable=true, updatable=true, unique=false}
+21:07:01,407 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=childrenSet_KEY, insertable=true, updatable=true, unique=false}
+21:07:01,409 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='childrenSet_KEY', referencedColumn='null', mappedBy='null'}
+21:07:01,412 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_childrenSet', referencedColumn='', mappedBy=''}
+21:07:01,413 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:07:01,414 DEBUG CollectionBinder:388 - Collection role: qin.mobilegoods.domain.GoodsType.childrenSet
+21:07:01,424 DEBUG PropertyBinder:265 - Building property childrenSet
+21:07:01,425 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=goods_typeDescription, insertable=true, updatable=true, unique=false}
+21:07:01,426 DEBUG PropertyBinder:174 - MetadataSourceProcessor property goods_typeDescription with lazy=false
+21:07:01,426 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:goods_typeDescription]
+21:07:01,426 DEBUG SimpleValueBinder:411 - building SimpleValue for goods_typeDescription
+21:07:01,428 DEBUG PropertyBinder:265 - Building property goods_typeDescription
+21:07:01,429 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=goods_typeName, insertable=true, updatable=true, unique=true}
+21:07:01,430 DEBUG PropertyBinder:174 - MetadataSourceProcessor property goods_typeName with lazy=false
+21:07:01,431 DEBUG AbstractPropertyHolder:89 - Attempting to locate auto-apply AttributeConverter for property [qin.mobilegoods.domain.GoodsType:goods_typeName]
+21:07:01,432 DEBUG SimpleValueBinder:411 - building SimpleValue for goods_typeName
+21:07:01,433 DEBUG PropertyBinder:265 - Building property goods_typeName
+21:07:01,433 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:07:01,434 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=mobileGoodsSet, insertable=true, updatable=true, unique=false}
+21:07:01,434 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=null, insertable=true, updatable=true, unique=false}
+21:07:01,435 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=element, insertable=true, updatable=true, unique=false}
+21:07:01,436 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=mobileGoodsSet_KEY, insertable=true, updatable=true, unique=false}
+21:07:01,436 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='mobileGoodsSet_KEY', referencedColumn='null', mappedBy='null'}
+21:07:01,437 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_mobileSet', referencedColumn='', mappedBy=''}
+21:07:01,437 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+21:07:01,438 DEBUG CollectionBinder:388 - Collection role: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+21:07:01,438 DEBUG PropertyBinder:265 - Building property mobileGoodsSet
+21:07:01,439 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='goodsType_parentId', referencedColumn='', mappedBy=''}
+21:07:01,439 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tb_goodsType8), mappingColumn=parentGoodsType, insertable=true, updatable=true, unique=false}
+21:07:01,444 DEBUG PropertyBinder:265 - Building property parentGoodsType
+21:07:01,448 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+21:07:01,449 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for goods_typeDescription
+21:07:01,449 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for goods_typeName
+21:07:01,452 DEBUG PrimaryKey:35 - Forcing column [gook_pk] to be non-null as it is part of the primary key for table [tb_goodstype8]
+21:07:01,452 DEBUG CollectionSecondPass:51 - Second pass for collection: qin.mobilegoods.domain.GoodsType.mobileGoodsSet
+21:07:01,453 DEBUG CollectionBinder:1207 - Binding a OneToMany: qin.mobilegoods.domain.GoodsType.mobileGoodsSet through an association table
+21:07:01,465 DEBUG PrimaryKey:35 - Forcing column [goodstype_mobileset] to be non-null as it is part of the primary key for table [mobilegoodsset_goodstype]
+21:07:01,465 DEBUG PrimaryKey:35 - Forcing column [mobilegoodsset_mobilegoodsid] to be non-null as it is part of the primary key for table [mobilegoodsset_goodstype]
+21:07:01,466 DEBUG CollectionSecondPass:68 - Mapped collection key: goodsType_mobileSet, element: mobileGoodsSet_mobileGoodsId
+21:07:01,466 DEBUG CollectionSecondPass:51 - Second pass for collection: qin.mobilegoods.domain.GoodsType.childrenSet
+21:07:01,466 DEBUG CollectionBinder:1207 - Binding a OneToMany: qin.mobilegoods.domain.GoodsType.childrenSet through an association table
+21:07:01,468 DEBUG PrimaryKey:35 - Forcing column [goodstype_childrenset] to be non-null as it is part of the primary key for table [goodstype_childrenset]
+21:07:01,468 DEBUG PrimaryKey:35 - Forcing column [childrenset_gook_pk] to be non-null as it is part of the primary key for table [goodstype_childrenset]
+21:07:01,468 DEBUG CollectionSecondPass:68 - Mapped collection key: goodsType_childrenSet, element: childrenSet_gook_pk
+21:07:01,470 DEBUG ModelBinder:3225 - Mapping collection: qin.mobilegoods.domain.MobileGoods.imagesMap -> mobileGoods_imagesMap
+21:07:01,477 DEBUG PrimaryKey:35 - Forcing column [col_images_mobile] to be non-null as it is part of the primary key for table [mobilegoods_imagesmap]
+21:07:01,477 DEBUG PrimaryKey:35 - Forcing column [col_images_index_mobile] to be non-null as it is part of the primary key for table [mobilegoods_imagesmap]
+21:07:01,478 DEBUG ModelBinder:3100 - Mapped collection : qin.mobilegoods.domain.MobileGoods.imagesMap
+21:07:01,478 DEBUG ModelBinder:3101 -    + table -> tb_mobileGoods8
+21:07:01,478 DEBUG ModelBinder:3102 -    + key -> col_images_mobile
+21:07:01,479 DEBUG ModelBinder:3104 -    + index -> col_images_index_mobile
+21:07:01,479 DEBUG ModelBinder:3110 -    + element -> element_images_mobile
+21:07:01,480 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.ProductsEntity
+21:07:01,489 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.CustomersEntity
+21:07:01,490 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,491 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,491 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:07:01,491 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,492 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:07:01,492 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:07:01,493 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,493 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,496 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.ProductsEntity
+21:07:01,497 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.CustomersEntity
+21:07:01,497 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,497 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,497 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:07:01,498 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,499 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:07:01,499 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.MobileGoods
+21:07:01,499 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,500 DEBUG InFlightMetadataCollectorImpl:1798 - Resolving reference to class: qin.mobilegoods.domain.GoodsType
+21:07:01,503 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [qin.mobilegoods.domain.PurchasesEntity] is safe
+21:07:01,505 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : qin.mobilegoods.domain.PurchasesEntity
+21:07:01,734  WARN ClassPathXmlApplicationContext:550 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mobileGoodsDAOImpl8': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: qin.mobilegoods.domain.PurchasesEntity column: PRODUCT_ID (should be mapped with insert="false" update="false")

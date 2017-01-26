@@ -10,12 +10,15 @@ import java.util.List;
 public class SaveGoodsType extends MakeTable
 {
     //region 1
-    @Test public void deleteGoods() {
+    @Test
+    public void deleteGoods()
+    {
         List<MobileGoods> mobileGoodsList = session
                   .createQuery("from MobileGoods where goods_name='sadf'")
                   .list();
 
-        for (Iterator<MobileGoods> it = mobileGoodsList.iterator(); it.hasNext(); ) {
+        for (Iterator<MobileGoods> it = mobileGoodsList.iterator(); it.hasNext(); )
+        {
             MobileGoods m = it.next();
             session.delete(m);
         }
@@ -23,13 +26,17 @@ public class SaveGoodsType extends MakeTable
         transaction.commit();
     }
 
-    @Test public void delete1() {
+    @Test
+    public void delete1()
+    {
         MobileGoods m = (MobileGoods) session.get(MobileGoods.class, new Long(105));
         session.delete(m);
         transaction.commit();
     }
 
-    @Test public void save1() {
+    @Test
+    public void save1()
+    {
         /*
         mobile_os='sdafsdaf', mobile_memory='254GB', mobile_frontCamera='sadf', mobile_news='sadf',
         mobile_backCamera='sdaf', mobile_battery='sdaf', mobile_rom='sadf', mobile_color='adsf'
@@ -130,7 +137,9 @@ public class SaveGoodsType extends MakeTable
     }
     //endregion
 
-    @Test public void deleteGoods1() {
+    @Test
+    public void deleteGoods1()
+    {
         List<MobileGoods> mobileGoodsList = session
                   .createQuery("from MobileGoods where goods_name='asdfsdaf'")
                   .list();

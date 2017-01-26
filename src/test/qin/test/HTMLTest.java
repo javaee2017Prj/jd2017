@@ -4,6 +4,10 @@ import org.junit.Test;
 
 public class HTMLTest
 {
+    @Test public void intTest() {
+        System.out.println(0x7fffffff);
+    }
+
     @Test
     public void testing()
     {

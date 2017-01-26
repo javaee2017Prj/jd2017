@@ -9,7 +9,6 @@
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>system</user-name>
-      <introspection-schemas>*:SYSTEM</introspection-schemas>
     </data-source>
     <data-source name="zhoujielun" uuid="244c833e-d75b-4ab8-a1d7-c0eb0cce7bb2">
       <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
@@ -19,9 +18,17 @@
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>C##ZHOUJIELUN</user-name>
-      <introspection-schemas>*:C##ZHOUJIELUN</introspection-schemas>
       <resolve-scope>*:C##ZHOUJIELUN,PUBLIC</resolve-scope>
-      <unqualified-resolve-schemas>*:C##ZHOUJIELUN,PUBLIC</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="orcl12book" uuid="478e85cd-964d-41a4-8274-7a524c00d502">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>c##Oracle12</user-name>
+      <resolve-scope>*:C##ORACLE12,PUBLIC</resolve-scope>
     </data-source>
   </component>
 </project>

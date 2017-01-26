@@ -137,5 +137,15 @@ public class SuperGoods implements SuperEntity8<Long>
     {
         superInfo_logger_normal(">>>>正在初始化商品默认构造函数<<<<");
     }
+
+    public SuperGoods(Integer goods_number, String goods_name, Double goods_price,
+                      String goods_description, Map<Integer, String> imagesMap)
+    {
+        this.goods_number = goods_number;
+        this.goods_name = goods_name;
+        this.goods_price = goods_price;
+        this.goods_description = goods_description;
+        this.imagesMap = imagesMap;
+    }
     //endregion
 }

@@ -2,5 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/backupOrcl/iniData1.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/src/oracle12book/_1_makeTable.sql" dialect="Oracle" />
   </component>
 </project>

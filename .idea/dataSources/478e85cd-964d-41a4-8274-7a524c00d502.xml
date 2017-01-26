@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="orcl12book">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="C##ORACLE12">
+      <ObjectId>111</ObjectId>
+      <IntrospectionTimestamp>2017-01-24.20:49:55</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-01-24.20:49:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:42</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="ORACLE_OCM">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSNMP">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APPQOSSYS">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="GSMCATUSER">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="WMSYS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="OJVMSYS">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="CTXSYS">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ORDSYS">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORDDATA">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDPLUGINS">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="MDSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OLAPSYS">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MDDATA">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="LBACSYS">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="FLOWS_FILES">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="APEX_040200">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="DVF">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="C##ZHOUJIELUN">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="40" parent="2" name="CUSTOMERS">
+      <ObjectId>93885</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:40</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="2" name="EMPLOYEES">
+      <ObjectId>93893</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="2" name="PRODUCTS">
+      <ObjectId>93889</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="2" name="PRODUCT_TYPES">
+      <ObjectId>93887</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="2" name="PURCHASES">
+      <ObjectId>93891</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="2" name="SALARY_GRADES">
+      <ObjectId>93895</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:42</ModifiedTimestamp>
+    </table>
+    <column id="46" parent="40" name="CUSTOMER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="40" name="FIRST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="40" name="LAST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="40" name="DOB">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="50" parent="40" name="PHONE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(12)|0</DataType>
+    </column>
+    <index id="51" parent="40" name="CUSTOMERS_PK">
+      <ObjectId>93886</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:40</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="40" name="CUSTOMERS_PK">
+      <ModifiedTimestamp>2017-01-24.20:49:40</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CUSTOMERS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="53" parent="41" name="EMPLOYEE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="41" name="MANAGER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="55" parent="41" name="FIRST_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="41" name="LAST_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="41" name="TITLE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="58" parent="41" name="SALARY">
+      <Position>6</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="59" parent="41" name="EMPLOYEES_PK">
+      <ObjectId>93894</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="41" name="EMPLOYEES_PK">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>EMPLOYEE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPLOYEES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="42" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="42" name="PRODUCT_TYPE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="63" parent="42" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="42" name="DESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="65" parent="42" name="PRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <index id="66" parent="42" name="PRODUCTS_PK">
+      <ObjectId>93890</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PRODUCT_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="42" name="PRODUCTS_PK">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCTS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="68" parent="42" name="PRODUCTS_FK_PRODUCT_TYPES">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PRODUCT_TYPES</RefTableName>
+      <RefKeyName>PRODUCT_TYPES_PK</RefKeyName>
+    </foreign-key>
+    <column id="69" parent="43" name="PRODUCT_TYPE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="43" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="71" parent="43" name="PRODUCT_TYPES_PK">
+      <ObjectId>93888</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="43" name="PRODUCT_TYPES_PK">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>PRODUCT_TYPE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCT_TYPES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="73" parent="44" name="PRODUCT_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="44" name="CUSTOMER_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="44" name="QUANTITY">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="76" parent="44" name="PURCHASES_PK">
+      <ObjectId>93892</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PRODUCT_ID
+CUSTOMER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="44" name="PURCHASES_PK">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID
+CUSTOMER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PURCHASES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="78" parent="44" name="PURCHASES_FK_PRODUCTS">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>PRODUCT_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PRODUCTS</RefTableName>
+      <RefKeyName>PRODUCTS_PK</RefKeyName>
+    </foreign-key>
+    <foreign-key id="79" parent="44" name="PURCHASES_FK_CUSTOMERS">
+      <ModifiedTimestamp>2017-01-24.20:49:41</ModifiedTimestamp>
+      <ColNames>CUSTOMER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>CUSTOMERS</RefTableName>
+      <RefKeyName>CUSTOMERS_PK</RefKeyName>
+    </foreign-key>
+    <column id="80" parent="45" name="SALARY_GRADE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="45" name="LOW_SALARY">
+      <Position>2</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <column id="82" parent="45" name="HIGH_SALARY">
+      <Position>3</Position>
+      <DataType>NUMBER(6)|0</DataType>
+    </column>
+    <index id="83" parent="45" name="SALARY_GRADE_PK">
+      <ObjectId>93896</ObjectId>
+      <CreatedTimestamp>2017-01-24.20:49:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-01-24.20:49:42</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SALARY_GRADE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="84" parent="45" name="SALARY_GRADE_PK">
+      <ModifiedTimestamp>2017-01-24.20:49:42</ModifiedTimestamp>
+      <ColNames>SALARY_GRADE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SALARY_GRADE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

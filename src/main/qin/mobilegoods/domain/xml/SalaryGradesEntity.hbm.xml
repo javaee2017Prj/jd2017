@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="qin.mobilegoods.domain.SalaryGradesEntity" table="SALARY_GRADES" schema="C##ORACLE12">
+        <id name="salaryGradeId">
+            <column name="SALARY_GRADE_ID" sql-type="number(*)" precision="2147483646"/>
+        </id>
+        <property name="lowSalary">
+            <column name="LOW_SALARY" sql-type="number(6)" precision="6" not-null="true"/>
+        </property>
+        <property name="highSalary">
+            <column name="HIGH_SALARY" sql-type="number(6)" precision="6" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
